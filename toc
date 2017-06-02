@@ -1,0 +1,17 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection=“geospatial” audience=“services”}
+Geospatial Analytics
+
+index.md
+    index.md
+    geospatial.md
+    requirements.md
+    service_dashboard.md
+    starterapp.md
+    pushing_starter_app.md
+    modifying_starter_app.md
+    vcap_services.md
+    [REST API Reference](https://console.ng.bluemix.net/apidocs/246)
+    ts_geospatial.md
