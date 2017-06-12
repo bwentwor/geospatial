@@ -195,3 +195,28 @@ To get started with {{site.data.keyword.geospatialshort_Geospatial}}:
 4. Push your application to {{site.data.keyword.Bluemix_notm}} with command-line commands. Find more information on how to do deploy your application in the section titled [Pushing the starter application to {{site.data.keyword.Bluemix_notm}}](/docs/services/geospatial/pushing_starter_app.html).
 
 5. Access the application in your browser.You can find your application's URL (or "route") on the application overview page, which is accessible from the {{site.data.keyword.Bluemix_notm}} dashboard.
+
+# Related Links
+{: #rellinks notoc}
+
+## Tutorials and Samples
+{: #samples notoc}
+* [{{site.data.keyword.geospatialshort_Geospatial}} starter application download](https://hub.jazz.net/project/streamscloud/geo-starter/overview){:new_window}
+* [{{site.data.keyword.geospatialshort_Geospatial}} tutorials on IBM developerWorks](http://www.ibm.com/developerworks/topics/geospatial%20analytics%20service){:new_window}
+* [Who & Where – Find out with {{site.data.keyword.Bluemix_notm}} {{site.data.keyword.geospatialshort_Geospatial}}](https://developer.ibm.com/bluemix/2014/12/17/find-bluemix-geospatial-analytics){:new_window}
+*
+
+## API Reference
+{: #api notoc}
+* [{{site.data.keyword.geospatialshort_Geospatial}} REST API](https://console.ng.bluemix.net/apidocs/246){:new_window}
+
+## Compatible Runtimes
+{: #buildpacks notoc}
+* [Liberty for Java](/docs/runtimes/liberty/index.html#liberty)
+* [Node.js](/docs/runtimes/nodejs/index.html#nodejs)
+
+## Related Links
+{: #general notoc}
+* [{{site.data.keyword.streamsshort}} documentation](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.welcome.doc/doc/kc-homepage.html){:new_window}
+* [MQTT.org](http://mqtt.org/)
+* * [Real-time hangout detection with {{site.data.keyword.streaminganalyticsshort}}](https://developer.ibm.com/bluemix/2016/05/27/real-time-hangout-detection/){:new_window}
