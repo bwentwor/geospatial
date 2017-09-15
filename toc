@@ -6,31 +6,27 @@ Geospatial Analytics
 
     {: .navgroup id="learn"}
     index.md
-
     {: .topicgroup}
     About
         geospatial.md
         requirements.md
         service-dashboard.md
-
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     related_links.md
     vcap_services.md
     [REST API Reference](https://console.ng.bluemix.net/apidocs/246)
-
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
+    {: .topicgroup}
     Sample apps
         starter_app.md
         pushing_starter_app.md
         modifying_starter_app.md
-
     {: .navgroup-end}
 
     {: .navgroup id="help"}
     ts_geospatial.md
-    
     {: .navgroup-end}
