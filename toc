@@ -21,11 +21,9 @@ Geospatial Analytics
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    {: .topicgroup}
-    Sample apps
-        starter_app.md
-        pushing_starter_app.md
-        modifying_starter_app.md
+    starter_app.md
+    pushing_starter_app.md
+    modifying_starter_app.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
