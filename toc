@@ -6,6 +6,7 @@ Geospatial Analytics
 
     {: .navgroup id="learn"}
     index.md
+
     {: .topicgroup}
     About
         geospatial.md
