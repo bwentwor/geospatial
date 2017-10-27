@@ -21,9 +21,11 @@ Geospatial Analytics
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    starter_app.md
-    pushing_starter_app.md
-    modifying_starter_app.md
+    {: .topicgroup}
+    Sample apps
+        starter_app.md
+        pushing_starter_app.md
+        modifying_starter_app.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}

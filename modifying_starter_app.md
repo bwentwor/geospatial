@@ -13,10 +13,10 @@ lastupdated: "2017-03-09"
 {:screen: .screen}
 {:pre: .pre}
 
-#Modifying the starter application to {{site.data.keyword.Bluemix_short}}
+# Modifying the starter application to {{site.data.keyword.Bluemix_notm}}
 {: #modifying_starter_app}
 
-You can modify the starter application and then redeploy it to {{site.data.keyword.Bluemix_short}} to see the results.
+You can modify the starter application and then redeploy it to {{site.data.keyword.Bluemix_notm}} to see the results.
 {:shortdesc}
 
 
@@ -33,8 +33,8 @@ A simple modification is to raise or remove the event limit in the starter appli
 		    callback(null, null);
 		    }
 	</code></pre>
-4. Redeploy your modified application to {{site.data.keyword.Bluemix_short}} with the cf push command.
+4. Redeploy your modified application to {{site.data.keyword.Bluemix_notm}} with the cf push command.
 	 <pre><code>  
 	cf push myapp
 	</code></pre>
-5. Enter your application's URL or "route" into your browser or launch it from the {{site.data.keyword.Bluemix_short}} dashboard.
+5. Enter your application's URL or "route" into your browser or launch it from the {{site.data.keyword.Bluemix_notm}} dashboard.

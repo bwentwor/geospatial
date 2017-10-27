@@ -73,7 +73,7 @@ The following Node.js code retrieves the service environment information:
 <pre><code>
 var geo_props = {};
 
-// Parse VCAP_SERVICES if running in Bluemix
+// Parse VCAP_SERVICES if running in IBM Cloud
 if (process.env.VCAP_SERVICES)
 {
 	var env = JSON.parse(process.env.VCAP_SERVICES);

@@ -17,11 +17,11 @@ lastupdated: "2017-03-09"
 #Getting started with {{site.data.keyword.geospatialshort_Geospatial}}
 {: #gettingstarted}
 
-{{site.data.keyword.geospatialfull}}  monitors moving devices from your {{site.data.keyword.Bluemix_notm}} application.
+{{site.data.keyword.geospatialfull}} monitors moving devices from your application in {{site.data.keyword.Bluemix_notm}}.
 
 Before you begin, make sure that you meet the following requirements:
 
-* Decide on a {{site.data.keyword.Bluemix_notm}} runtime environment for the application, such as SDK for Node.js. The code examples that are shown here all use Node.js. The starter application is also written in Node.js.
+* Decide on a runtime environment for the application in {{site.data.keyword.Bluemix_notm}}, such as SDK for Node.js. The code examples that are shown here all use Node.js. The starter application is also written in Node.js.
 * Install the [cf command-line interface (CLI)](/docs/starters/install_cli.html){:new_window} to interact with {{site.data.keyword.Bluemix_notm}} from the command line.
 * Ensure that you have an [MQTT](http://mqtt.org/){:new_window} message broker to supply geospatial device data and receive event notifications for devices. The starter application points to a message broker that generates simulated device information. The [Internet of Things Platform](https://console.ng.bluemix.net/catalog/services/internet-of-things-platform/){:new_window} service in {{site.data.keyword.Bluemix_notm}} is a solution to fulfill the need of an MQTT message broker. For more information on how to use {{site.data.keyword.geospatialshort_Geospatial}} with the Internet of Things Platform  service, see [Build a connected-car IoT app with {{site.data.keyword.geospatialshort_Geospatial}}](http://www.ibm.com/developerworks/mobile/library/mo-connectedcar-app/index.html){:new_window}.
 
@@ -40,7 +40,7 @@ To get started with {{site.data.keyword.geospatialshort_Geospatial}}:
 	1. Within your application, obtain the VCAP_SERVICES environment variable information for {{site.data.keyword.geospatialshort_Geospatial}}. Your application needs this information to use the REST API. The following code snippet is an example of how to parse the [VCAP_SERVICES environment variable.](/docs/services/geospatial/vcap_services.html)
 	<pre><code>		 	
 		var geo_props = {};
-		// Parse VCAP_SERVICES if running in Bluemix
+		// Parse VCAP_SERVICES if running in IBM Cloud
 		if (process.env.VCAP_SERVICES)
 		{
 			var env = JSON.parse(process.env.VCAP_SERVICES);
@@ -195,28 +195,3 @@ To get started with {{site.data.keyword.geospatialshort_Geospatial}}:
 4. Push your application to {{site.data.keyword.Bluemix_notm}} with command-line commands. Find more information on how to do deploy your application in the section titled [Pushing the starter application to {{site.data.keyword.Bluemix_notm}}](/docs/services/geospatial/pushing_starter_app.html).
 
 5. Access the application in your browser.You can find your application's URL (or "route") on the application overview page, which is accessible from the {{site.data.keyword.Bluemix_notm}} dashboard.
-
-# Related Links
-{: #rellinks notoc}
-
-## Tutorials and Samples
-{: #samples notoc}
-* [{{site.data.keyword.geospatialshort_Geospatial}} starter application download](https://hub.jazz.net/project/streamscloud/geo-starter/overview){:new_window}
-* [{{site.data.keyword.geospatialshort_Geospatial}} tutorials on IBM developerWorks](http://www.ibm.com/developerworks/topics/geospatial%20analytics%20service){:new_window}
-* [Who & Where – Find out with {{site.data.keyword.Bluemix_notm}} {{site.data.keyword.geospatialshort_Geospatial}}](https://developer.ibm.com/bluemix/2014/12/17/find-bluemix-geospatial-analytics){:new_window}
-*
-
-## API Reference
-{: #api notoc}
-* [{{site.data.keyword.geospatialshort_Geospatial}} REST API](https://console.ng.bluemix.net/apidocs/246){:new_window}
-
-## Compatible Runtimes
-{: #buildpacks notoc}
-* [Liberty for Java](/docs/runtimes/liberty/index.html#liberty)
-* [Node.js](/docs/runtimes/nodejs/index.html#nodejs)
-
-## Related Links
-{: #general notoc}
-* [{{site.data.keyword.streamsshort}} documentation](http://www.ibm.com/support/knowledgecenter/SSCRJU_4.2.0/com.ibm.streams.welcome.doc/doc/kc-homepage.html){:new_window}
-* [MQTT.org](http://mqtt.org/)
-* * [Real-time hangout detection with {{site.data.keyword.streaminganalyticsshort}}](https://developer.ibm.com/bluemix/2016/05/27/real-time-hangout-detection/){:new_window}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-03-09"
+lastupdated: "2017-10-27"
 
 ---
 
@@ -26,4 +26,4 @@ The starter application uses messages from a demonstration MQTT broker for a sim
 A visualizer that is linked from that web page monitors devices as they move from location to location on a map. The visualizer is not linked to the starter application, so it is not affected by changes you make to your copy of the starter application. The starter application code, which is written in Node.js, shows you how to configure and control the {{site.data.keyword.geospatialshort_Geospatial}} service through its REST API.
 
 
-You can run the starter application without modification. If you want to experiment further with the service, you can also modify the code and push your changes back to the {{site.data.keyword.Bluemix_short}} environment.
+You can run the starter application without modification. If you want to experiment further with the service, you can also modify the code and push your changes back to the {{site.data.keyword.Bluemix_short}} environment. Check out [Monitor mobile devices with the {{site.data.keyword.geospatialshort_Geospatial}} service]( https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html) for details on how to run and extend the {{site.data.keyword.geospatialshort_Geospatial}} the starter application.
