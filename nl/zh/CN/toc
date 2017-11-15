@@ -1,0 +1,33 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="geospatial" audience="service" href="/docs/services/geospatial/index.html"}
+Geospatial Analytics
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    关于
+        geospatial.md
+        requirements.md
+        service-dashboard.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    related_links.md
+    vcap_services.md
+    [REST API 参考](https://console.ng.bluemix.net/apidocs/246)
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    {: .topicgroup}
+    样本应用程序
+        starter_app.md
+        pushing_starter_app.md
+        modifying_starter_app.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    ts_geospatial.md
+    {: .navgroup-end}
