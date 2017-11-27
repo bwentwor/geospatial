@@ -2,14 +2,14 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-02-09"
+lastupdated: "2017-03-09"
 
 ---
 
-<!-- Attribute definitions --> 
-{:tsSymptoms: .tsSymptoms} 
-{:tsCauses: .tsCauses} 
-{:tsResolve: .tsResolve} 
+<!-- Attribute definitions -->
+{:tsSymptoms: .tsSymptoms}
+{:tsCauses: .tsCauses}
+{:tsResolve: .tsResolve}
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -35,7 +35,7 @@ Ha detenido la aplicación que utiliza {{site.data.keyword.geospatialshort_Geosp
 {: tsSymptoms}
 
 
-Si detiene la aplicación, la instancia del servicio {{site.data.keyword.geospatialshort_Geospatial}} sigue ejecutándose. El servicio sigue supervisando regiones hasta que detenga el servicio, independientemente de si la app se está ejecutando. 
+Si detiene la aplicación, la instancia del servicio {{site.data.keyword.geospatialshort_Geospatial}} sigue ejecutándose. El servicio sigue supervisando regiones hasta que detenga el servicio, independientemente de si la app se está ejecutando.
 {: tsCauses}
 
 
@@ -72,6 +72,6 @@ Para que {{site.data.keyword.geospatialshort_Geospatial}} deje de supervisar cie
 Cuando resuelva los problemas de la aplicación, deseará ir al panel de control de administración de servicios para ver el estado de la instancia del servicio. Si no está procesando datos, es posible que pueda solucionar el problema deteniendo y volviendo a iniciar el servicio.
 {:shortdesc}
 
-El estado de la instancia del servicio {{site.data.keyword.geospatialshort_Geospatial}} es independiente del estado de la aplicación y se pueden enlazar varias aplicaciones a la misma instancia de servicio. 
+El estado de la instancia del servicio {{site.data.keyword.geospatialshort_Geospatial}} es independiente del estado de la aplicación y se pueden enlazar varias aplicaciones a la misma instancia de servicio.
 
 El panel de control de administración de servicios ofrece información sobre el estado de {{site.data.keyword.geospatialshort_Geospatial}}, no sobre las aplicaciones enlazadas al mismo. Los estados separados de la instancia de servicio y de la aplicación o aplicaciones significan que si detiene la aplicación, la instancia del servicio {{site.data.keyword.geospatialshort_Geospatial}} continúa ejecutándose. El servicio sigue supervisando las regiones que ha elegido hasta que las elimina, independientemente de si la app se está ejecutando o no.

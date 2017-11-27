@@ -2,11 +2,11 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-01-09"
+lastupdated: "2017-03-09"
 
 ---
 
-<!-- Attribute definitions --> 
+<!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -37,4 +37,3 @@ La aplicación se suscribe a los mensajes MQTT y controla {{site.data.keyword.ge
 * Recuperar información sobre el estado del servicio y sobre el conjunto de regiones definidas actualmente.
 * Detener el servicio.
 * Reiniciar un servicio ya configurado.
-

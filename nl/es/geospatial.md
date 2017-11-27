@@ -2,11 +2,11 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-02-09"
+lastupdated: "2017-03-09"
 
 ---
 
-<!-- Attribute definitions --> 
+<!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -27,4 +27,4 @@ Hay miles de millones de dispositivos conectados en Internet de las cosas, con p
 * Alertar a automovilistas o a dispositivos sobre regiones que hay que evitar, por ejemplo, en el caso de que se hayan producido situaciones de emergencia o accidentes.
 
 
-El modo más fácil de empezar a supervisar dispositivos geoespaciales es utilizar la [aplicación de inicio](https://hub.jazz.net/project/streamscloud/geo-starter/overview). Esta aplicación de inicio le indicará cómo configurar y controlar el servicio {{site.data.keyword.geospatialshort_Geospatial}} a través de su API REST. También puede modificar el código de la aplicación y enviar por push los cambios al entorno de {{site.data.keyword.Bluemix_notm}}.
+El modo más fácil de empezar a supervisar dispositivos geoespaciales es utilizar la [aplicación de inicio](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html). Esta aplicación de inicio le indicará cómo configurar y controlar el servicio {{site.data.keyword.geospatialshort_Geospatial}} a través de su API REST. También puede modificar el código de la aplicación y enviar por push los cambios al entorno de {{site.data.keyword.Bluemix_notm}}.

@@ -2,21 +2,22 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-02-09"
+lastupdated: "2017-03-09"
 
 ---
 
-<!-- Attribute definitions --> 
+<!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:pre: .pre}
 
-#Modificación de la aplicación de inicio a {{site.data.keyword.Bluemix_short}}
+# Modificación de la aplicación de inicio a {{site.data.keyword.Bluemix_notm}}
 {: #modifying_starter_app}
 
-Puede modificar la aplicación de inicio y luego volverla a desplegar en {{site.data.keyword.Bluemix_short}} para ver los resultados.{:shortdesc}
+Puede modificar la aplicación de inicio y luego volverla a desplegar en {{site.data.keyword.Bluemix_notm}} para ver los resultados.
+{:shortdesc}
 
 
 Una modificación sencilla consiste en aumentar o eliminar el límite de sucesos en la aplicación de inicio para que se ejecute más tiempo.
@@ -26,14 +27,14 @@ Una modificación sencilla consiste en aumentar o eliminar el límite de sucesos
 	 <pre><code>var eventTarget = 100;</code></pre>
 3. Si desea eliminar el límite de sucesos, también tiene que suprimir la siguiente sentencia if:
 	 <pre><code>  
-if (eventCount >= eventTarget) {
-status_step[3] = "Completed";
+	if (eventCount >= eventTarget) {
+		    status_step[3] = "Completed";
 		    console.log("\nSe ha alcanzado el recuento de sucesos de destino. El servicio de Geospatial Analytics se detendrá.\n");
-callback(null, null);
-		    } 
-	</code></pre> 
-4. Vuelva a desplegar la aplicación modificada en {{site.data.keyword.Bluemix_short}} con el mandato cf push.
+		    callback(null, null);
+		    }
+	</code></pre>
+4. Vuelva a desplegar la aplicación modificada en {{site.data.keyword.Bluemix_notm}} con el mandato cf push.
 	 <pre><code>  
 	cf push myapp
 	</code></pre>
-5. Especifique el URL de la aplicación o "route" en el navegador o iníciela desde el panel de control de {{site.data.keyword.Bluemix_short}}.
+5. Especifique el URL de la aplicación o "route" en el navegador o iníciela desde el panel de control de {{site.data.keyword.Bluemix_notm}}.
