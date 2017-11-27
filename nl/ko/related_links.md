@@ -21,8 +21,7 @@ lastupdated: "2017-04-13"
 
 * [{{site.data.keyword.geospatialshort_Geospatial}} 스타터 애플리케이션 튜토리얼](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html){:new_window}
 * [IBM developerWorks의 {{site.data.keyword.geospatialshort_Geospatial}} 튜토리얼](http://www.ibm.com/developerworks/topics/geospatial%20analytics%20service){:new_window}
-* [사람 및 위치 – {{site.data.keyword.Bluemix_notm}}
-* {{site.data.keyword.geospatialshort_Geospatial}}를 사용하여 찾기](https://developer.ibm.com/bluemix/2014/12/17/find-bluemix-geospatial-analytics){:new_window}
+* [사람 및 위치 – {{site.data.keyword.geospatialshort_Geospatial}}를 사용하여 찾기](https://developer.ibm.com/bluemix/2014/12/17/find-bluemix-geospatial-analytics){:new_window}
 * [{{site.data.keyword.streaminganalyticsshort}}를 사용하여 어디에서 시간을 보내는지 실시간으로 검색](https://developer.ibm.com/bluemix/2016/05/27/real-time-hangout-detection/){:new_window}
 
 

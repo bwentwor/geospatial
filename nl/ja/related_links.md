@@ -21,8 +21,7 @@ lastupdated: "2017-04-13"
 
 * [{{site.data.keyword.geospatialshort_Geospatial}} スターター・アプリケーションのチュートリアル](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html){:new_window}
 * [IBM developerWorks 上の {{site.data.keyword.geospatialshort_Geospatial}} チュートリアル](http://www.ibm.com/developerworks/topics/geospatial%20analytics%20service){:new_window}
-* [Who & Where – Find out with {{site.data.keyword.Bluemix_notm}}
-* {{site.data.keyword.geospatialshort_Geospatial}}](https://developer.ibm.com/bluemix/2014/12/17/find-bluemix-geospatial-analytics){:new_window}
+* [Who & Where – Find out with {{site.data.keyword.geospatialshort_Geospatial}}](https://developer.ibm.com/bluemix/2014/12/17/find-bluemix-geospatial-analytics){:new_window}
 * [{{site.data.keyword.streaminganalyticsshort}} を使用したリアルタイム・ハングアウトの検出](https://developer.ibm.com/bluemix/2016/05/27/real-time-hangout-detection/){:new_window}
 
 

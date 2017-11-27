@@ -21,8 +21,7 @@ lastupdated: "2017-04-13"
 
 * [Lernprogramm zur {{site.data.keyword.geospatialshort_Geospatial}}-Starteranwendung](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html){:new_window}
 * [Lernprogramme zu {{site.data.keyword.geospatialshort_Geospatial}} unter IBM developerWorks](http://www.ibm.com/developerworks/topics/geospatial%20analytics%20service){:new_window}
-* [Wer & Wo – Finden Sie es heraus mit {{site.data.keyword.Bluemix_notm}}
-* {{site.data.keyword.geospatialshort_Geospatial}}](https://developer.ibm.com/bluemix/2014/12/17/find-bluemix-geospatial-analytics){:new_window}
+* [Wer & Wo – Finden Sie es heraus mit {{site.data.keyword.geospatialshort_Geospatial}}](https://developer.ibm.com/bluemix/2014/12/17/find-bluemix-geospatial-analytics){:new_window}
 * [Hangout-Erkennung in Echtzeit mit {{site.data.keyword.streaminganalyticsshort}}](https://developer.ibm.com/bluemix/2016/05/27/real-time-hangout-detection/){:new_window}
 
 

@@ -21,8 +21,7 @@ lastupdated: "2017-04-13"
 
 * [{{site.data.keyword.geospatialshort_Geospatial}} 入门模板应用程序教程](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html){:new_window}
 * IBM developerWorks 上的 [{{site.data.keyword.geospatialshort_Geospatial}} 教程](http://www.ibm.com/developerworks/topics/geospatial%20analytics%20service){:new_window}
-* [对象和位置 – 了解 {{site.data.keyword.Bluemix_notm}}
-* {{site.data.keyword.geospatialshort_Geospatial}}](https://developer.ibm.com/bluemix/2014/12/17/find-bluemix-geospatial-analytics){:new_window}
+* [对象和位置 – 了解 {{site.data.keyword.geospatialshort_Geospatial}}](https://developer.ibm.com/bluemix/2014/12/17/find-bluemix-geospatial-analytics){:new_window}
 * [使用 {{site.data.keyword.streaminganalyticsshort}} 实时驻留检测](https://developer.ibm.com/bluemix/2016/05/27/real-time-hangout-detection/){:new_window}
 
 
