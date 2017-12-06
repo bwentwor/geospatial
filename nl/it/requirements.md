@@ -2,11 +2,11 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-01-09"
+lastupdated: "2017-03-09"
 
 ---
 
-<!-- Attribute definitions --> 
+<!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -47,4 +47,3 @@ sono disponibili le seguenti azioni:
 attualmente definite.
 * Arresta il servizio.
 * Riavviare un servizio già configurato.
-

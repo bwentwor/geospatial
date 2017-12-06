@@ -2,11 +2,11 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-02-09"
+lastupdated: "2017-03-09"
 
 ---
 
-<!-- Attribute definitions --> 
+<!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -41,7 +41,7 @@ emergenza.
 
 
 Il modo più semplice per iniziare a utilizzare il monitoraggio dei dispositivi geospaziali
-è quello di utilizzare l'[applicazione starter](https://hub.jazz.net/project/streamscloud/geo-starter/overview). Questa applicazione starter
+è quello di utilizzare l'[applicazione starter](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html). Questa applicazione starter
 ti mostra come configurare e controllare il servizio {{site.data.keyword.geospatialshort_Geospatial}}
 attraverso la sua API REST. Puoi anche modificare il codice applicativo
 e ridistribuire le modifiche all'ambiente

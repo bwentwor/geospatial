@@ -2,11 +2,11 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-02-09"
+lastupdated: "2017-10-27"
 
 ---
 
-<!-- Attribute definitions --> 
+<!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -31,8 +31,8 @@ Un visualizzatore che viene collegato da questa pagina Web monitora i dispositiv
 all'altra su una mappa. Il
     visualizzatore non è collegato all'applicazione starter, pertanto non viene influenzato dalle modifiche apportate
     alla tua copia di tale applicazione. Il codice dell'applicazione starter, che è scritto in
-    Node.js, ti mostra come configurare e controllare il servizio {{site.data.keyword.geospatialshort_Geospatial}} attraverso la sua API REST. 
+    Node.js, ti mostra come configurare e controllare il servizio {{site.data.keyword.geospatialshort_Geospatial}} attraverso la sua API REST.
 
 
 Puoi eseguire l'applicazione starter senza alcuna modifica. Se vuoi sperimentare ulteriormente con il
-    servizio, puoi anche modificare il codice e ridistribuire le modifiche all'ambiente {{site.data.keyword.Bluemix_short}}.
+    servizio, puoi anche modificare il codice e ridistribuire le modifiche all'ambiente {{site.data.keyword.Bluemix_short}}. Controlla [Monitor mobile devices with the {{site.data.keyword.geospatialshort_Geospatial}} service]( https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html) per i dettagli su come eseguire ed estendere l'applicazione starter {{site.data.keyword.geospatialshort_Geospatial}}.

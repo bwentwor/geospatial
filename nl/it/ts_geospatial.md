@@ -2,21 +2,21 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-02-09"
+lastupdated: "2017-03-09"
 
 ---
 
-<!-- Attribute definitions --> 
-{:tsSymptoms: .tsSymptoms} 
-{:tsCauses: .tsCauses} 
-{:tsResolve: .tsResolve} 
+<!-- Attribute definitions -->
+{:tsSymptoms: .tsSymptoms}
+{:tsCauses: .tsCauses}
+{:tsResolve: .tsResolve}
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:pre: .pre}
 
-#Risoluzione dei problemi di {{site.data.keyword.geospatialshort_Geospatial}} 
+#Risoluzione dei problemi di {{site.data.keyword.geospatialshort_Geospatial}}
 {: #ts_geospatial}
 
 
@@ -38,7 +38,7 @@ tua applicazione.
 
 
 Se arresti la tua applicazione, l'istanza del servizio {{site.data.keyword.geospatialshort_Geospatial}} continuerà l'esecuzione. Il servizio continua a monitorare le regioni finché non lo arresti, indipendentemente dal fatto che la tua
-applicazione sia in esecuzione. 
+applicazione sia in esecuzione.
 {: tsCauses}
 
 
@@ -80,7 +80,7 @@ servizio.
 {:shortdesc}
 
 Lo stato della tua istanza del servizio {{site.data.keyword.geospatialshort_Geospatial}} è separato dallo
-stato della tua applicazione e più applicazioni possono essere associate alla stessa istanza del servizio. 
+stato della tua applicazione e più applicazioni possono essere associate alla stessa istanza del servizio.
 
 Il
 dashboard di gestione del servizio fornisce informazioni sullo stato di {{site.data.keyword.geospatialshort_Geospatial}}, non delle applicazioni associate

@@ -2,11 +2,11 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-02-09"
+lastupdated: "2017-03-09"
 
 ---
 
-<!-- Attribute definitions --> 
+<!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -27,7 +27,7 @@ richieste per l'utilizzo dell'API REST
 
 La
 variabile di ambiente VCAP_SERVICES include informazioni simili al
-seguente esempio: 
+seguente esempio:
 
 <pre><code>
 "Geospatial Analytics": {
@@ -53,11 +53,11 @@ seguente esempio:
 La variabile di ambiente  VCAP_SERVICES include
 i seguenti elementi:
 
-* key: il nome del servizio {{site.data.keyword.geospatialshort_Geospatial}} [{{site.data.keyword.geospatialshort_Geospatial}}]. 
-* name: il nome dell'istanza del servizio. 
-* label: il nome del servizio. 
-* plan: il nome del piano di servizio. 
-* start_path: il percorso utilizzato dal metodo start dell'API REST. 
+* key: il nome del servizio {{site.data.keyword.geospatialshort_Geospatial}} [{{site.data.keyword.geospatialshort_Geospatial}}].
+* name: il nome dell'istanza del servizio.
+* label: il nome del servizio.
+* plan: il nome del piano di servizio.
+* start_path: il percorso utilizzato dal metodo start dell'API REST.
 * geo_host: il nome host del server {{site.data.keyword.geospatialshort_Geospatial}}.
 * status_path: il percorso utilizzato dal metodo status dell'API REST.
 * remove_region_path: il percorso utilizzato dal metodo remove_region dell'API REST.
@@ -75,12 +75,12 @@ VCAP_SERVICES
 {: #vcap_example}
 
 Il seguente codice Node.js
-richiama le informazioni sull'ambiente del servizio: 
+richiama le informazioni sull'ambiente del servizio:
 
 <pre><code>
 var geo_props = {};
 
-// Parse VCAP_SERVICES if running in Bluemix
+// Parse VCAP_SERVICES if running in IBM Cloud
 if (process.env.VCAP_SERVICES)
 {
 	var env = JSON.parse(process.env.VCAP_SERVICES);
@@ -97,5 +97,5 @@ if (process.env.VCAP_SERVICES)
 	else {
 		console.log('You must bind the Geospatial Analytics service to this application');
 	}
-} 
+}
 </code></pre>
