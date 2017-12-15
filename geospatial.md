@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-03-09"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -27,4 +27,4 @@ There are billions of connected devices in the Internet of Things, with forecast
 * Alerting cars or other connected devices of regions to avoid, for example, where accidents or emergency situations occurred.
 
 
-The easiest way to get started with geospatial device monitoring is to use the [starter application](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html). This starter application shows you how to configure and control the {{site.data.keyword.geospatialshort_Geospatial}} service through its REST API. You can also modify the application code and push your changes back to the {{site.data.keyword.Bluemix_notm}} environment.
+The easiest way to get started with geospatial device monitoring is to use the [starter application ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html). This starter application shows you how to configure and control the {{site.data.keyword.geospatialshort_Geospatial}} service through its REST API. You can also modify the application code and push your changes back to the {{site.data.keyword.Bluemix_notm}} environment.
