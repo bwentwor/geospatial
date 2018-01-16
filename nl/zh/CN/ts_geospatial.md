@@ -2,21 +2,21 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-02-09"
+lastupdated: "2017-12-15"
 
 ---
 
-<!-- Attribute definitions --> 
-{:tsSymptoms: .tsSymptoms} 
-{:tsCauses: .tsCauses} 
-{:tsResolve: .tsResolve} 
+<!-- Attribute definitions -->
+{:tsSymptoms: .tsSymptoms}
+{:tsCauses: .tsCauses}
+{:tsResolve: .tsResolve}
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:pre: .pre}
 
-#{{site.data.keyword.geospatialshort_Geospatial}} 故障诊断 
+#{{site.data.keyword.geospatialshort_Geospatial}} 故障诊断
 {: #ts_geospatial}
 
 
@@ -72,6 +72,6 @@ lastupdated: "2017-02-09"
 当您对应用程序进行故障诊断时，可能想要转至服务管理仪表板来检查服务实例的状态。如果服务未在处理数据，那么您可能能够通过停止并重新启动服务来解决该问题。
 {:shortdesc}
 
-{{site.data.keyword.geospatialshort_Geospatial}} 服务实例的状态与应用程序的状态是分开的，并且多个应用程序可以绑定到同一服务实例。 
+{{site.data.keyword.geospatialshort_Geospatial}} 服务实例的状态与应用程序的状态是分开的，并且多个应用程序可以绑定到同一服务实例。
 
 服务管理仪表板提供有关 {{site.data.keyword.geospatialshort_Geospatial}}（而非绑定到它的应用程序）的状态的信息。服务实例和应用程序的独立状态意味着如果停止应用程序，{{site.data.keyword.geospatialshort_Geospatial}} 服务实例继续运行。服务会继续监视您选择的区域，直到您将其除去为止，不管应用程序是否在运行。

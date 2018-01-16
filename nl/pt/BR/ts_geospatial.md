@@ -2,21 +2,21 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-02-09"
+lastupdated: "2017-12-15"
 
 ---
 
-<!-- Attribute definitions --> 
-{:tsSymptoms: .tsSymptoms} 
-{:tsCauses: .tsCauses} 
-{:tsResolve: .tsResolve} 
+<!-- Attribute definitions -->
+{:tsSymptoms: .tsSymptoms}
+{:tsCauses: .tsCauses}
+{:tsResolve: .tsResolve}
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:pre: .pre}
 
-#{{site.data.keyword.geospatialshort_Geospatial}} resolução de problemas 
+#{{site.data.keyword.geospatialshort_Geospatial}} resolução de problemas
 {: #ts_geospatial}
 
 
@@ -35,7 +35,7 @@ Você parou o aplicativo que usa o {{site.data.keyword.geospatialshort_Geospatia
 {: tsSymptoms}
 
 
-Se você parar seu aplicativo, a instância de serviço do {{site.data.keyword.geospatialshort_Geospatial}} continuará a ser executada. O serviço continua a monitorar regiões até que você pare o serviço, independentemente se o app está ou não em execução. 
+Se você parar seu aplicativo, a instância de serviço do {{site.data.keyword.geospatialshort_Geospatial}} continuará a ser executada. O serviço continua a monitorar regiões até que você pare o serviço, independentemente se o app está ou não em execução.
 {: tsCauses}
 
 
@@ -81,7 +81,7 @@ de sua instância de serviço. Se ele não estiver processando dados, talvez voc
 corrigir o problema parando e reiniciando o serviço.
 {:shortdesc}
 
-O status de sua instância de serviço do {{site.data.keyword.geospatialshort_Geospatial}} é separado do status de seu aplicativo e vários aplicativos podem estar ligados à mesma instância de serviço. 
+O status de sua instância de serviço do {{site.data.keyword.geospatialshort_Geospatial}} é separado do status de seu aplicativo e vários aplicativos podem estar ligados à mesma instância de serviço.
 
 O painel de
 administração de serviços fornece informações sobre o status do {{site.data.keyword.geospatialshort_Geospatial}}, e não sobre os aplicativos que estão ligados

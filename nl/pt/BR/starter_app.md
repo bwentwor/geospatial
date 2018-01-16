@@ -2,11 +2,11 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-02-09"
+lastupdated: "2017-12-15"
 
 ---
 
-<!-- Attribute definitions --> 
+<!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -17,9 +17,7 @@ lastupdated: "2017-02-09"
 {: #starter_app}
 
 
-O {{site.data.keyword.geospatialshort_Geospatial}} inclui um aplicativo
-iniciador para ser usado como modelo para experimentação e faz e envia por push mudanças para o
-ambiente do {{site.data.keyword.Bluemix_short}}.
+O {{site.data.keyword.geospatialshort_Geospatial}} inclui um aplicativo iniciador [ ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://developer.ibm.com/streamsdev/wp-content/uploads/sites/15/2017/09/geo-starter.zip) para você usar como um modelo para experimento e faz e envia por push mudanças para o ambiente do {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
 O aplicativo iniciador usa mensagens de um broker do MQTT de demonstração para um conjunto simulado de
@@ -30,8 +28,9 @@ O aplicativo iniciador usa mensagens de um broker do MQTT de demonstração para
 Um visualizador que está vinculado a partir dessa página da web monitora dispositivos à medida que eles se movem de um local ao outro em um mapa. O
     visualizador não está vinculado ao aplicativo iniciador, portanto ele não é afetado pelas mudanças feitas na cópia do
     aplicativo iniciador. O código do aplicativo iniciador, que é gravado em
-    Node.js, mostra como configurar e controlar o serviço {{site.data.keyword.geospatialshort_Geospatial}} por meio de sua API REST. 
+    Node.js, mostra como configurar e controlar o serviço {{site.data.keyword.geospatialshort_Geospatial}} por meio de sua API REST.
 
 
 É possível executar o aplicativo
-iniciador sem modificação. Se desejar experimentar mais com o serviço, também é possível modificar o código e enviar por push as mudanças de volta ao ambiente do  {{site.data.keyword.Bluemix_short}}.
+iniciador sem modificação. Se você quiser experimentar mais com o serviço, também será possível [modificar o código](/docs/services/geospatial/modifying_starter_app.html) e enviar por push as mudanças de volta para o ambiente do {{site.data.keyword.Bluemix_short}}. Veja [Monitorar dispositivos móveis com o serviço {{site.data.keyword.geospatialshort_Geospatial}}
+![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html) para obter detalhes sobre como executar e estender o aplicativo iniciador {{site.data.keyword.geospatialshort_Geospatial}}.

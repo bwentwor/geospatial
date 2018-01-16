@@ -2,11 +2,11 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-01-09"
+lastupdated: "2017-12-15"
 
 ---
 
-<!-- Attribute definitions --> 
+<!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -30,11 +30,10 @@ lastupdated: "2017-01-09"
 
 ##MQTT-Ereignisse und Konfiguration des Service
 
-Von einer Anwendung werden MQTT-Nachrichten abonniert und {{site.data.keyword.geospatialshort_Geospatial}} über die [REST-API](https://console.ng.bluemix.net/apidocs/246) gesteuert. Über REST-API-Aufrufe stehen folgende Aktionen zur Verfügung:
+Die Anwendung abonniert MQTT-Nachrichten und steuert {{site.data.keyword.geospatialshort_Geospatial}} über die zugehörige [REST-API ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://console.ng.bluemix.net/apidocs/246). Über REST-API-Aufrufe stehen folgende Aktionen zur Verfügung:
 
 * Konfigurieren und Starten des Service.
 * Hinzufügen geografischer Regionen zur Überwachung und Entfernen geografischer Regionen aus der Überwachung.
 * Abrufen von Informationen zum Servicestatus und zu den derzeit definierten Regionen.
 * Stoppen Sie den Service.
 * Erneutes Starten eines bereits konfigurierten Service.
-

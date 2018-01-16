@@ -2,11 +2,11 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-01-09"
+lastupdated: "2017-12-15"
 
 ---
 
-<!-- Attribute definitions --> 
+<!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -31,7 +31,7 @@ tópicos do MQTT.
 
 ##Eventos MQTT e configurando o serviço
 
-O seu aplicativo assina mensagens MQTT e controla o {{site.data.keyword.geospatialshort_Geospatial}} por meio de sua [API REST](https://console.ng.bluemix.net/apidocs/246). As
+Seu aplicativo assina mensagens MQTT e controla o {{site.data.keyword.geospatialshort_Geospatial}} por meio da API de REST do [ ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.ng.bluemix.net/apidocs/246). As
 ações a seguir estão disponíveis através de chamadas API REST:
 
 * Configurar e iniciar o serviço.
@@ -39,4 +39,3 @@ ações a seguir estão disponíveis através de chamadas API REST:
 * Recuperar informações sobre o status de serviço e o conjunto de regiões definido atualmente.
 * Parar o serviço.
 * Reiniciar um serviço já configurado.
-

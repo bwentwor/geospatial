@@ -2,11 +2,11 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-01-09"
+lastupdated: "2017-12-15"
 
 ---
 
-<!-- Attribute definitions --> 
+<!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -30,13 +30,10 @@ lastupdated: "2017-01-09"
 
 ##MQTT 事件及配置服務
 
-您的應用程式會訂閱 MQTT
-訊息並控制透過 [REST API](https://console.ng.bluemix.net/apidocs/246) 控制 {{site.data.keyword.geospatialshort_Geospatial}}。
-下列動作可透過 REST API 呼叫進行：
+您的應用程式會訂閱 MQTT 訊息並透過其 [REST API ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.ng.bluemix.net/apidocs/246) 控制 {{site.data.keyword.geospatialshort_Geospatial}}。下列動作可透過 REST API 呼叫進行：
 
 * 配置及啟動服務。
 * 新增及移除要監視的地理區域。
 * 擷取服務狀態及目前定義的一組地區的相關資訊。
 * 停止服務。
 * 重新啟動已配置的服務。
-

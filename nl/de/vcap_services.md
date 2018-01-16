@@ -2,11 +2,11 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-02-09"
+lastupdated: "2017-12-15"
 
 ---
 
-<!-- Attribute definitions --> 
+<!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -23,7 +23,7 @@ Die Umgebungsvariable VCAP_SERVICES enthält Informationen, die für die Verwend
 ##Beschreibung
 {: #vcap_description}
 
-Die Umgebungsvariable VCAP_SERVICES enthält Informationen, die den Informationen im folgenden Beispiel ähneln: 
+Die Umgebungsvariable VCAP_SERVICES enthält Informationen, die den Informationen im folgenden Beispiel ähneln:
 
 <pre><code>
 "Geospatial Analytics": {
@@ -48,11 +48,11 @@ Die Umgebungsvariable VCAP_SERVICES enthält Informationen, die den Informatione
 
 Die Umgebungsvariable VCAP_SERVICES enthält die folgenden Elemente:
 
-* key: Der Name des {{site.data.keyword.geospatialshort_Geospatial}}-Service [{{site.data.keyword.geospatialshort_Geospatial}}]. 
-* name: Der Name der Serviceinstanz. 
-* plan: Der Name des Service. 
-* plan: Der Name des Serviceplans. 
-* start_path: Der Pfad, der von der Methode 'start' der REST-API verwendet wird. 
+* key: Der Name des {{site.data.keyword.geospatialshort_Geospatial}}-Service [{{site.data.keyword.geospatialshort_Geospatial}}].
+* name: Der Name der Serviceinstanz.
+* plan: Der Name des Service.
+* plan: Der Name des Serviceplans.
+* start_path: Der Pfad, der von der Methode 'start' der REST-API verwendet wird.
 * geo_host: Der Hostname des {{site.data.keyword.geospatialshort_Geospatial}}-Servers.
 * status_path: Der Pfad, der von der Methode 'status' der REST-API verwendet wird.
 * remove_region_path: Der Pfad, der von der Methode 'remove_region' der REST-API verwendet wird.
@@ -68,12 +68,12 @@ Die Umgebungsvariable VCAP_SERVICES enthält die folgenden Elemente:
 ##Beispiel: Abrufen der Informationen aus der Umgebungsvariablen VCAP_SERVICES
 {: #vcap_example}
 
-Vom folgenden Node.js-Code werden Informationen zur Serviceumgebung abgerufen. 
+Vom folgenden Node.js-Code werden Informationen zur Serviceumgebung abgerufen.
 
 <pre><code>
 var geo_props = {};
 
-// Analysieren von VCAP_SERVICES bei Ausführung in Bluemix
+// Analysieren von VCAP_SERVICES bei Ausführung in IBM Cloud
 if (process.env.VCAP_SERVICES)
 {
 	var env = JSON.parse(process.env.VCAP_SERVICES);
@@ -88,7 +88,7 @@ if (process.env.VCAP_SERVICES)
 		geo_props = env['Geospatial Analytics'][0]['credentials'];
 	}
 	else {
- console.log('You must bind the Geospatial Analytics service to this application');
+		console.log('You must bind the Geospatial Analytics service to this application');
 	}
-} 
+}
 </code></pre>

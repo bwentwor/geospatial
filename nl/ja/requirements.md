@@ -2,11 +2,11 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-01-09"
+lastupdated: "2017-12-15"
 
 ---
 
-<!-- Attribute definitions --> 
+<!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -30,11 +30,10 @@ lastupdated: "2017-01-09"
 
 ##MQTT イベントとサービスの構成
 
-アプリケーションは MQTT メッセージをサブスクライブし、{{site.data.keyword.geospatialshort_Geospatial}} をその [REST API](https://console.ng.bluemix.net/apidocs/246) によって制御します。REST API 呼び出しにより使用可能なアクションは次のとおりです。
+アプリケーションは MQTT メッセージをサブスクライブし、{{site.data.keyword.geospatialshort_Geospatial}} をその [REST API ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.ng.bluemix.net/apidocs/246) によって制御します。REST API 呼び出しにより使用可能なアクションは次のとおりです。
 
 * サービスの構成と開始。
 * モニターする地域の追加と削除。
 * サービス状況に関する情報と、現在定義されている地域のセットに関する情報の取得。
 * サービスの停止。
 * 既に構成済みのサービスの再始動。
-

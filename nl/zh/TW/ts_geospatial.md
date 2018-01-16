@@ -2,21 +2,21 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-02-09"
+lastupdated: "2017-12-15"
 
 ---
 
-<!-- Attribute definitions --> 
-{:tsSymptoms: .tsSymptoms} 
-{:tsCauses: .tsCauses} 
-{:tsResolve: .tsResolve} 
+<!-- Attribute definitions -->
+{:tsSymptoms: .tsSymptoms}
+{:tsCauses: .tsCauses}
+{:tsResolve: .tsResolve}
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:pre: .pre}
 
-#{{site.data.keyword.geospatialshort_Geospatial}} 疑難排解 
+#{{site.data.keyword.geospatialshort_Geospatial}} 疑難排解
 {: #ts_geospatial}
 
 
@@ -72,6 +72,6 @@ lastupdated: "2017-02-09"
 在您對應用程式進行疑難排解時，可以移至服務管理儀表板檢查服務實例的狀態。如果它不在處理資料，您可能可以藉由停止並重新啟動服務來修正問題。
 {:shortdesc}
 
-{{site.data.keyword.geospatialshort_Geospatial}} 服務實例的狀態與應用程式的狀態是分開的，數個應用程式可以連結至相同的服務實例。 
+{{site.data.keyword.geospatialshort_Geospatial}} 服務實例的狀態與應用程式的狀態是分開的，數個應用程式可以連結至相同的服務實例。
 
 服務管理儀表板提供 {{site.data.keyword.geospatialshort_Geospatial}} 狀態的相關資訊，而不是連結到它的應用程式相關資訊。服務實例與應用程式的個別狀態，表示如果您停止應用程式，您的 {{site.data.keyword.geospatialshort_Geospatial}} 服務實例會繼續執行。服務會繼續監視您選擇的地區，直到您移除它們為止，而不論您的應用程式是否在執行中。

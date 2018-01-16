@@ -2,11 +2,11 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-02-09"
+lastupdated: "2017-12-15"
 
 ---
 
-<!-- Attribute definitions --> 
+<!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -25,7 +25,7 @@ usar a API REST do {{site.data.keyword.geospatialshort_Geospatial}}.
 {: #vcap_description}
 
 A variável de
-ambiente VCAP_SERVICES inclui informações semelhantes ao exemplo a seguir: 
+ambiente VCAP_SERVICES inclui informações semelhantes ao exemplo a seguir:
 
 <pre><code>
 "Geospatial Analytics": {
@@ -50,11 +50,11 @@ ambiente VCAP_SERVICES inclui informações semelhantes ao exemplo a seguir:
 
 A variável de ambiente VCAP_SERVICES inclui os itens a seguir:
 
-* key: o nome do serviço {{site.data.keyword.geospatialshort_Geospatial}} [{{site.data.keyword.geospatialshort_Geospatial}}]. 
-* name: o nome da instância de serviço. 
-* label: o nome do serviço. 
-* plan: o nome do plano de serviço. 
-* start_path: o caminho que é usado pelo método de início da API de REST. 
+* key: o nome do serviço {{site.data.keyword.geospatialshort_Geospatial}} [{{site.data.keyword.geospatialshort_Geospatial}}].
+* name: o nome da instância de serviço.
+* label: o nome do serviço.
+* plan: o nome do plano de serviço.
+* start_path: o caminho que é usado pelo método de início da API de REST.
 * geo_host: o nome do host do servidor {{site.data.keyword.geospatialshort_Geospatial}}.
 * status_path: o caminho que é usado pelo método de status da API de REST.
 * remove_region_path: o caminho que é usado pelo método remove_region da API de REST.
@@ -71,12 +71,12 @@ A variável de ambiente VCAP_SERVICES inclui os itens a seguir:
 {: #vcap_example}
 
 O código Node.js a seguir
-recupera as informações do ambiente de serviço: 
+recupera as informações do ambiente de serviço:
 
 <pre><code>
 var geo_props = {};
 
-// Parse VCAP_SERVICES if running in Bluemix
+// Parse VCAP_SERVICES if running in IBM Cloud
 if (process.env.VCAP_SERVICES)
 {
 	var env = JSON.parse(process.env.VCAP_SERVICES);
@@ -93,5 +93,5 @@ if (process.env.VCAP_SERVICES)
 	else {
 		console.log('You must bind the Geospatial Analytics service to this application');
 	}
-} 
+}
 </code></pre>

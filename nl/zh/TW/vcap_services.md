@@ -2,11 +2,11 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-02-09"
+lastupdated: "2017-12-15"
 
 ---
 
-<!-- Attribute definitions --> 
+<!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -23,7 +23,7 @@ VCAP_SERVICES 環境變數包括使用 {{site.data.keyword.geospatialshort_Geosp
 ##說明
 {: #vcap_description}
 
-VCAP_SERVICES 環境變數包括與下列範例類似的資訊： 
+VCAP_SERVICES 環境變數包括與下列範例類似的資訊：
 
 <pre><code>
 "Geospatial Analytics": {
@@ -48,11 +48,11 @@ VCAP_SERVICES 環境變數包括與下列範例類似的資訊：
 
 VCAP_SERVICES 環境變數包括下列項目：
 
-* key：{{site.data.keyword.geospatialshort_Geospatial}} 服務的名稱 [{{site.data.keyword.geospatialshort_Geospatial}}]。 
-* name：服務實例的名稱。 
-* label：服務的名稱。 
-* plan：服務方案的名稱。 
-* start_path：REST API 的 start 方法所使用的路徑。 
+* key：{{site.data.keyword.geospatialshort_Geospatial}} 服務的名稱 [{{site.data.keyword.geospatialshort_Geospatial}}]。
+* name：服務實例的名稱。
+* label：服務的名稱。
+* plan：服務方案的名稱。
+* start_path：REST API 的 start 方法所使用的路徑。
 * geo_host：{{site.data.keyword.geospatialshort_Geospatial}} 伺服器的主機名稱。
 * status_path：REST API 的 status 方法所使用的路徑。
 * remove_region_path：REST API 的 remove_region 方法所使用的路徑。
@@ -68,12 +68,12 @@ VCAP_SERVICES 環境變數包括下列項目：
 ##範例：擷取 VCAP_SERVICES 環境變數資訊
 {: #vcap_example}
 
-下列 Node.js 程式碼會擷取服務環境資訊： 
+下列 Node.js 程式碼會擷取服務環境資訊：
 
 <pre><code>
 var geo_props = {};
 
-// Parse VCAP_SERVICES if running in Bluemix
+// Parse VCAP_SERVICES if running in IBM Cloud
 if (process.env.VCAP_SERVICES)
 {
 	var env = JSON.parse(process.env.VCAP_SERVICES);
@@ -90,5 +90,5 @@ if (process.env.VCAP_SERVICES)
 	else {
 		console.log('You must bind the Geospatial Analytics service to this application');
 	}
-} 
+}
 </code></pre>

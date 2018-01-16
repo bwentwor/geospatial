@@ -2,11 +2,11 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-02-09"
+lastupdated: "2017-12-15"
 
 ---
 
-<!-- Attribute definitions --> 
+<!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -37,4 +37,4 @@ Há bilhões de dispositivos conectados ao Internet of Things, com previsão de 
 * alertar carros ou outros dispositivos conectados sobre regiões a evitar, por exemplo, onde acidentes ou situações de emergência tenham ocorrido.
 
 
-A maneira mais fácil de iniciar com o monitoramento de dispositivo geo-espacial é usar o [aplicativo iniciador](https://hub.jazz.net/project/streamscloud/geo-starter/overview). Esse aplicativo iniciador mostra como configurar e controlar o serviço {{site.data.keyword.geospatialshort_Geospatial}} por meio de sua API REST. Também é possível modificar o código do aplicativo e enviar por push suas mudanças de volta para o ambiente do {{site.data.keyword.Bluemix_notm}}.
+A maneira mais fácil de iniciar o monitoramento de dispositivo geoespacial é usar o aplicativo iniciador do [![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html). Esse aplicativo iniciador mostra como configurar e controlar o serviço {{site.data.keyword.geospatialshort_Geospatial}} por meio de sua API REST. Também é possível modificar o código do aplicativo e enviar por push suas mudanças de volta para o ambiente do {{site.data.keyword.Bluemix_notm}}.
