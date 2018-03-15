@@ -59,72 +59,70 @@ lastupdated: "2017-12-15"
 			}
 		}
 	</code></pre>
-	1. 通过 REST API 配置和控制 {{site.data.keyword.geospatialshort_Geospatial}} 服务。必须至少定义一个地理区域并启动服务。[REST API 参考 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.bluemix.net/apidocs/246) 包含可在构建更复杂应用程序时使用的多个功能部件的代码示例。代码片段：定义区域。<pre><code>
+	1. 通过 REST API 配置和控制 {{site.data.keyword.geospatialshort_Geospatial}} 服务。必须至少定义一个地理区域并启动服务。[REST API 参考 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.bluemix.net/apidocs/246) 包含可在构建更复杂应用程序时使用的多个功能部件的代码示例。代码片段：定义区域。
+  <pre><code>
+    //
+    // Begin - PUT addRegion
+    //
+    console.log("About to call REST PUT-addRegion api");  
 
-		//
-		// Begin - PUT addRegion
-		//
-		console.log("About to call REST PUT-addRegion api");  
+    // Create the JSON object
+    jsonObject = JSON.stringify({
+      "regions" : [
+      {"region_type" : "regular", "name" : "Kiosk 3",
+       "notifyOnExit" : "false",
+       "center_latitude" : "36.229531",
+       "center_longitude" : "-115.277874",
+       "number_of_sides" : "10",
+       "distance_to_vertices" : "150"
+     }
+      ]
+    });
 
-		// Create the JSON object
-		jsonObject = JSON.stringify({
-		  "regions" : [
-		  {"region_type" : "regular", "name" : "Kiosk 3", 
-		   "notifyOnExit" : "false", 
-		   "center_latitude" : "36.229531", 
-		   "center_longitude" : "-115.277874", 
-		   "number_of_sides" : "10", 
-		   "distance_to_vertices" : "150"
-		 }
-		  ]
-		});
+    putheaders = {'Content-Type' : 'application/json',
+        'Content-Length' : Buffer.byteLength(jsonObject, 'utf8'),
+        'Authorization' : authbuf
+    };
 
-		putheaders = {
-'Content-Type' : 'application/json',
-		    'Content-Length' : Buffer.byteLength(jsonObject, 'utf8'),
-		    'Authorization' : authbuf
-		};
+    // The PUT options
+    optionsput = {
+        host : geo_props.geo_host,
+        port : geo_props.geo_port,
+        path : geo_props.add_region_path,
+        method : 'PUT',
+        headers : putheaders
+    };
 
-		// The PUT options
-		optionsput = {
-		    host : geo_props.geo_host,
-		    port : geo_props.geo_port,
-		    path : geo_props.add_region_path,
-		    method : 'PUT',
-		    headers : putheaders
-		};
+    console.info('Options prepared:');
+    console.info(optionsput);
+    console.info('Do the PUT-addRegion call');
 
-		console.info('Options prepared:');
-		console.info(optionsput);
-		console.info('Do the PUT-addRegion call');
+    // Do the PUT call
+    reqPut = https.request(optionsput, function(res) {
+        console.log("statusCode: ", res.statusCode);
 
-		// Do the PUT call
-		reqPut = https.request(optionsput, function(res) {
-		    console.log("statusCode: ", res.statusCode);
+        if (res.statusCode != 200)
+  runError = 1;
 
+        res.on('data', function(d) {
+  console.info('PUT result:\n');
+            process.stdout.write(d);
+            console.info('\n\nPUT completed');
+        });
+    });
 
-		    if (res.statusCode != 200)
-runError = 1;
+    // Write the JSON data
+    reqPut.write(jsonObject);
+    reqPut.end();
+    reqPut.on('error', function(e) {
+        console.error(e);
+    });
 
-		    res.on('data', function(d) {
-console.info('PUT result:\n');
-		        process.stdout.write(d);
-		        console.info('\n\nPUT completed');
-		    });
-		});
+    //
+    // PUT-addRegion end
+    //
 
-		// Write the JSON data
-		reqPut.write(jsonObject);
-		reqPut.end();
-		reqPut.on('error', function(e) {
-		    console.error(e);
-		});
-
-		//
-		// PUT-addRegion end
-		//
-
-		</code></pre>
+    </code></pre>
 	1. 启动服务，以开始从 MQTT 接收设备消息。代码片段：启动服务。
 
 		<pre><code>							
@@ -192,7 +190,7 @@ console.info('PUT result:\n');
 				// PUT-start end
 				//
 	</code></pre>
-      
+
 1. 使用命令行命令将应用程序推送至 {{site.data.keyword.Bluemix_notm}}。在标题为[入门教程](/docs/services/geospatial/pushing_starter_app.html)的章节中，查找有关如何部署应用程序的更多信息。
 
 1. 在浏览器中访问应用程序。您可以在应用程序概述页面上找到应用程序的 URL（或“路径”），可以从 {{site.data.keyword.Bluemix_notm}} 仪表板访问概述页面。
