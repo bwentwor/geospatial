@@ -2,36 +2,36 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-02-09"
+lastupdated: "2017-12-15"
 
 ---
 
-<!-- Attribute definitions --> 
-{:tsSymptoms: .tsSymptoms} 
-{:tsCauses: .tsCauses} 
-{:tsResolve: .tsResolve} 
+<!-- Attribute definitions -->
+{:tsSymptoms: .tsSymptoms}
+{:tsCauses: .tsCauses}
+{:tsResolve: .tsResolve}
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:pre: .pre}
 
-#{{site.data.keyword.geospatialshort_Geospatial}} traitement des incidents 
+#{{site.data.keyword.geospatialshort_Geospatial}} traitement des incidents
 {: #ts_geospatial}
 
 
 Vous trouverez dans cette section les réponses à plusieurs questions fréquentes concernant l'utilisation de {{site.data.keyword.geospatialshort_Geospatial}} dans {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
-##Lorsque j'arrête mon app, le service continue de surveiller les régions
+##Lorsque j'arrête mon appli, le service continue de surveiller les régions
 {: #stop-monitoring}
 
 
-L'arrêt de votre app n'entraîne pas automatiquement l'arrêt de {{site.data.keyword.geospatialshort_Geospatial}}.
+L'arrêt de votre appli n'entraîne pas automatiquement l'arrêt de {{site.data.keyword.geospatialshort_Geospatial}}.
 {:shortdesc}
 
 
-Vous avez arrêté votre application qui utilise {{site.data.keyword.geospatialshort_Geospatial}}, mais vous constatez dans le tableau de bord d'administration du service que le service continue de surveiller les régions que vous avez spécifiées dans votre app.
+Vous avez arrêté votre application qui utilise {{site.data.keyword.geospatialshort_Geospatial}}, mais vous constatez dans le tableau de bord d'administration du service que le service continue de surveiller les régions que vous avez spécifiées dans votre appli.
 {: tsSymptoms}
 
 
@@ -39,10 +39,10 @@ Si vous arrêtez votre application, votre instance de service {{site.data.keywor
 {: tsCauses}
 
 
-Arrêtez {{site.data.keyword.geospatialshort_Geospatial}} depuis le tableau de bord d'administration du service. Ou bien, modifiez votre app pour arrêter le service avec l'API REST, puis envoyez vos modifications par commande push à {{site.data.keyword.Bluemix_short}}.
+Arrêtez {{site.data.keyword.geospatialshort_Geospatial}} depuis le tableau de bord d'administration du service. Ou bien, modifiez votre appli pour arrêter le service avec l'API REST, puis envoyez vos modifications par commande push à {{site.data.keyword.Bluemix_short}}.
 {: tsResolve}
 
-##Le service surveille des régions que je n'ai pas spécifiées dans mon app
+##Le service surveille des régions que je n'ai pas spécifiées dans mon appli
 {: #unspecified-region}
 
 
@@ -72,6 +72,6 @@ Pour que {{site.data.keyword.geospatialshort_Geospatial}} ne surveille plus cert
 Lorsque vous traitez des incidents liés à votre application, vous pouvez accéder au tableau de bord d'administration du service pour vérifier le statut de votre instance de service. Si elle ne traite pas les données, vous pouvez peut-être résoudre le problème en arrêtant et en redémarrant le service.
 {:shortdesc}
 
-Le statut de votre instance de service {{site.data.keyword.geospatialshort_Geospatial}} est distinct du statut de votre application, et plusieurs applications peuvent être liées à la même instance de service. 
+Le statut de votre instance de service {{site.data.keyword.geospatialshort_Geospatial}} est distinct du statut de votre application, et plusieurs applications peuvent être liées à la même instance de service.
 
 Le tableau de bord d'administration du service fournit des informations sur le statut de {{site.data.keyword.geospatialshort_Geospatial}}, mais pas sur les applications liées. Avec la distinction des statuts de votre instance de service et de votre ou vos applications, si vous arrêtez votre application, votre instance de service {{site.data.keyword.geospatialshort_Geospatial}} continue de s'exécuter. Le service continue de surveiller les régions que vous avez choisies jusqu'à ce que vous les retiriez, que votre application soit en cours d'exécution ou non.

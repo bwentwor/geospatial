@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-03-09"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -23,9 +23,9 @@ Puede modificar la aplicación de inicio y luego volverla a desplegar en {{site.
 Una modificación sencilla consiste en aumentar o eliminar el límite de sucesos en la aplicación de inicio para que se ejecute más tiempo.
 
 1. Abra app.js en un editor de texto o entorno de desarrollo.
-2. Modifique la variable eventTarget o suprima esta línea para eliminar por completo el límite de sucesos.
+1. Modifique la variable `eventTarget` o suprima esta línea para eliminar por completo el límite de sucesos:
 	 <pre><code>var eventTarget = 100;</code></pre>
-3. Si desea eliminar el límite de sucesos, también tiene que suprimir la siguiente sentencia if:
+1. Si desea eliminar el límite de sucesos, también tiene que suprimir la siguiente sentencia if:
 	 <pre><code>  
 	if (eventCount >= eventTarget) {
 		    status_step[3] = "Completed";
@@ -33,8 +33,8 @@ Una modificación sencilla consiste en aumentar o eliminar el límite de sucesos
 		    callback(null, null);
 		    }
 	</code></pre>
-4. Vuelva a desplegar la aplicación modificada en {{site.data.keyword.Bluemix_notm}} con el mandato cf push.
+1. Vuelva a desplegar la aplicación modificada en {{site.data.keyword.Bluemix_notm}} con el mandato cf push.
 	 <pre><code>  
-	cf push myapp
+	bx app push mygeoapp
 	</code></pre>
-5. Especifique el URL de la aplicación o "route" en el navegador o iníciela desde el panel de control de {{site.data.keyword.Bluemix_notm}}.
+1. Especifique el URL de la aplicación o "route" en el navegador o iníciela desde el panel de control de {{site.data.keyword.Bluemix_notm}}.

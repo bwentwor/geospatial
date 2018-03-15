@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-03-09"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2017-03-09"
 {:screen: .screen}
 {:pre: .pre}
 
-#{{site.data.keyword.geospatialshort_Geospatial}} resolución de problemas 
+#{{site.data.keyword.geospatialshort_Geospatial}} resolución de problemas
 {: #ts_geospatial}
 
 

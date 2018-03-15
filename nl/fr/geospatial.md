@@ -2,11 +2,11 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-02-09"
+lastupdated: "2017-12-15"
 
 ---
 
-<!-- Attribute definitions --> 
+<!-- Attribute definitions -->
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -27,4 +27,4 @@ Des milliards de périphériques sont connectés à Internet of Things, et leur 
 * Alerter les voitures ou d'autres périphériques connectés sur les régions à éviter en raison, par exemple, d'accidents ou de situations d'urgence.
 
 
-Le meilleur moyen de s'initier à la surveillance de périphérique géospatial est d'utiliser l'[application de démarrage](https://hub.jazz.net/project/streamscloud/geo-starter/overview). Cette dernière explique comment configurer et contrôler le service {{site.data.keyword.geospatialshort_Geospatial}} via son API REST. Vous pouvez également modifier le code d'application et renvoyer vos modifications dans l'environnement {{site.data.keyword.Bluemix_notm}}.
+Le moyen le plus simple de s'initier à la surveillance de périphérique géospatial est d'utiliser l'[application de démarrage ![Icône de lien externe icon](../../icons/launch-glyph.svg "Icône de lien externe icon")](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html). Cette dernière explique comment configurer et contrôler le service {{site.data.keyword.geospatialshort_Geospatial}} via son API REST. Vous pouvez également modifier le code d'application et renvoyer vos modifications dans l'environnement {{site.data.keyword.Bluemix_notm}}.

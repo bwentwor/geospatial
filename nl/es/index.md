@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-03-09"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -22,11 +22,10 @@ lastupdated: "2017-03-09"
 Antes de comenzar, asegúrese de que cumple los requisitos siguientes:
 
 * Elija un entorno de tiempo de ejecución para la aplicación en {{site.data.keyword.Bluemix_notm}} como, por ejemplo, SDK for Node.js. Los ejemplos de código que se muestran aquí utilizan todos Node.js. La aplicación de inicio también está escrita en Node.js.
-* Instale la [interfaz de línea de mandatos (CLI) de cf](/docs/starters/install_cli.html){:new_window} para interactuar con {{site.data.keyword.Bluemix_notm}} desde la línea de mandatos.
-* Asegúrese de tener un intermediario de mensajes [MQTT](http://mqtt.org/){:new_window} para facilitar datos de dispositivos geoespaciales y recibir notificaciones de sucesos para dispositivos. La aplicación del iniciador apunta a un intermediario de mensajes que genera información de dispositivo simulada. El servicio [Internet of Things Platform](https://console.ng.bluemix.net/catalog/services/internet-of-things-platform/){:new_window} de {{site.data.keyword.Bluemix_notm}} es una solución que satisface la necesidad de un intermediario de mensajes MQTT. Para obtener más información sobre cómo utilizar {{site.data.keyword.geospatialshort_Geospatial}} con el servicio Internet of Things Platform, consulte [Crear una aplicación IoT con conexión al automóvil con {{site.data.keyword.geospatialshort_Geospatial}}](http://www.ibm.com/developerworks/mobile/library/mo-connectedcar-app/index.html){:new_window}.
+* [Instale la CLI de {{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/docs/cloud-platform/cli/reference/bluemix_cli/download_cli.html#download_install){:new_window} para interactuar con {{site.data.keyword.Bluemix_notm}} desde la línea de mandatos.
+* Asegúrese de tener un intermediario de mensajes [MQTT ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://mqtt.org/){:new_window} para facilitar datos de dispositivos geoespaciales y recibir notificaciones de sucesos para dispositivos. La aplicación del iniciador apunta a un intermediario de mensajes que genera información de dispositivo simulada. El servicio [Internet of Things Platform](https://console.bluemix.net/catalog/services/internet-of-things-platform/){:new_window} de {{site.data.keyword.Bluemix_notm}} es una solución que satisface la necesidad de un intermediario de mensajes MQTT. Para obtener más información sobre cómo utilizar {{site.data.keyword.geospatialshort_Geospatial}} con el servicio Internet of Things Platform, consulte [Crear una app IoT con conexión al automóvil con {{site.data.keyword.geospatialshort_Geospatial}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://www.ibm.com/developerworks/mobile/library/mo-connectedcar-app/index.html){:new_window}.
 
-Consulte
-[Requisitos del servicio](/docs/services/geospatial/requirements.html){:new_window} para obtener información sobre los requisitos y la configuración de mensajes de dispositivo MQTT.
+Consulte [Requisitos del servicio](/docs/services/geospatial/requirements.html){:new_window} para obtener información sobre los requisitos y la configuración de mensajes de dispositivo MQTT.
 
 
 Para empezar con {{site.data.keyword.geospatialshort_Geospatial}}:
@@ -35,8 +34,8 @@ Para empezar con {{site.data.keyword.geospatialshort_Geospatial}}:
 
 	También puede empezar a utilizar {{site.data.keyword.geospatialshort_Geospatial}} directamente ejecutando la aplicación de inicio.
 
-2. Añada un servicio {{site.data.keyword.geospatialshort_Geospatial}} a la aplicación.
-3. Escriba el código de su aplicación e incluya las acciones siguientes:
+1. Añada un servicio {{site.data.keyword.geospatialshort_Geospatial}} a la aplicación.
+1. Escriba el código de su aplicación e incluya las acciones siguientes:
 
 	1. Dentro de la aplicación, obtenga la información de la variable de entorno VCAP_SERVICES para {{site.data.keyword.geospatialshort_Geospatial}}. La aplicación necesita esta información para utilizar la API REST. El siguiente fragmento de código es un ejemplo de cómo analizar la [variable de entorno VCAP_SERVICES.](/docs/services/geospatial/vcap_services.html)
 	<pre><code>		 	
@@ -60,13 +59,13 @@ Para empezar con {{site.data.keyword.geospatialshort_Geospatial}}:
 			}
 		}
 	</code></pre>
-	2. Configure y controle el servicio geoespacial a través de la API REST. Como mínimo, debe definir una región geográfica e iniciar el servicio. La [referencia de API REST](https://console.ng.bluemix.net/apidocs/246) incluye ejemplos de código para más características que puede utilizar para crear una aplicación más compleja. Fragmento de código: Definir una región.
+	1. Configure y controle el servicio {{site.data.keyword.geospatialshort_Geospatial}} a través de la API REST. Como mínimo, debe definir una región geográfica e iniciar el servicio. La [referencia de API REST ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.bluemix.net/apidocs/246) incluye ejemplos de código para más características que puede utilizar para crear una aplicación más compleja. Fragmento de código: Definir una región.
 	<pre><code>
 
 		//
-		// Comenzar - PUT addRegion
+		// Inicio - PUT addRegion
 		//
-		console.log("A punto de llamar a la api PUT-addRegion de REST");  
+		console.log("A punto de llamar a la api REST PUT-addRegion");  
 
 		// Crear el objeto JSON
 		jsonObject = JSON.stringify({
@@ -116,17 +115,19 @@ Para empezar con {{site.data.keyword.geospatialshort_Geospatial}}:
 		});
 
 		//
-		// Finalizar PUT-addRegion
+		// Fin de PUT-addRegion
 		//
 
 		</code></pre>
-	3. Inicie el servicio para empezar a recibir mensajes de dispositivo de MQTT. Fragmento de código: Iniciar el servicio.
-	<pre><code>		
+	1. Inicie el servicio para empezar a recibir mensajes de dispositivo de MQTT. Fragmento de código: Iniciar el servicio.
+	
 
+		<pre><code>							
 				//
-				// Comenzar - PUT start
+				// Inicio - PUT start
 				//
-				console.log("A punto de llamar a la api REST PUT-start");  
+				console.log("A punto de llamar a la api REST PUT-start");
+  
 
 				// Crear el objeto JSON
 				jsonObject = JSON.stringify({
@@ -187,7 +188,7 @@ Para empezar con {{site.data.keyword.geospatialshort_Geospatial}}:
 				// Fin de PUT-start
 				//
 	</code></pre>
-  
-4. Envíe por push la aplicación a {{site.data.keyword.Bluemix_notm}} con los mandatos de la línea de mandatos. Encontrará más información sobre cómo desplegar la aplicación en la sección sobre [Envío de la aplicación de inicio a {{site.data.keyword.Bluemix_notm}}](/docs/services/geospatial/pushing_starter_app.html).
+      
+1. Envíe por push la aplicación a {{site.data.keyword.Bluemix_notm}} con los mandatos de la línea de mandatos. Encontrará más información sobre cómo desplegar la aplicación en la sección titulada [Guía de aprendizaje de iniciación](/docs/services/geospatial/pushing_starter_app.html).
 
-5. Acceda a la aplicación en su navegador. Encontrará el URL de la aplicación (o "route") en la página de visión general de la aplicación, a la que se puede acceder desde el panel de control de {{site.data.keyword.Bluemix_notm}}.
+1. Acceda a la aplicación en su navegador. Encontrará el URL de la aplicación (o "route") en la página de visión general de la aplicación, a la que se puede acceder desde el panel de control de {{site.data.keyword.Bluemix_notm}}.

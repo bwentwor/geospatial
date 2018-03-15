@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-03-09"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -30,7 +30,7 @@ lastupdated: "2017-03-09"
 
 ##Sucesos MQTT y configuración del servicio
 
-La aplicación se suscribe a los mensajes MQTT y controla {{site.data.keyword.geospatialshort_Geospatial}} a través de su [API REST](https://console.ng.bluemix.net/apidocs/246). Las siguientes opciones están disponibles mediante las llamadas de API REST:
+La aplicación se suscribe a los mensajes MQTT y controla {{site.data.keyword.geospatialshort_Geospatial}} a través de su [API REST ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.ng.bluemix.net/apidocs/246). Las siguientes opciones están disponibles mediante las llamadas de API REST:
 
 * Configurar e iniciar el servicio.
 * Añadir y eliminar regiones geográficas que desea supervisar.
