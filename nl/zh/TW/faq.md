@@ -13,37 +13,37 @@ lastupdated: "2017-12-15"
 {:screen: .screen}
 {:pre: .pre}
 
-# 常見問題 (FAQ)
+# 常见问题
 {: #faq}
 
-## 如何註冊 Geospatial Analytics 服務？
+## 如何注册 Geospatial Analytics 服务？
 {: #signup notoc}
 
-如需 {{site.data.keyword.geospatialshort_Geospatial}} 服務方案的相關資訊，請參閱 [{{site.data.keyword.Bluemix_short}} 型錄頁面](https://console.ng.bluemix.net/catalog/services/geospatial-analytics)。
+有关 {{site.data.keyword.geospatialshort_Geospatial}} 服务套餐的信息，请参阅 [{{site.data.keyword.Bluemix_short}} 目录页面](https://console.ng.bluemix.net/catalog/services/geospatial-analytics)。
 
-## 我正在使用什麼版本的 Geospatial Analytics 服務？
+## 我使用的是哪个版本的 Geospatial Analytics 服务？
 {: #version notoc}
 
-改進功能會定期推送給所有 {{site.data.keyword.geospatialshort_Geospatial}} 服務。您隨時都能使用最新版的受管理服務，且不必記錄產品版本或層次。
+所有 {{site.data.keyword.geospatialshort_Geospatial}} 服务都会定期改进。您始终会使用最新版本的受管服务，您无需跟踪产品版本或级别。
 
-## IBM 為我管理什麼？
+## IBM 会为我做什么？
 {: #ibm_manage notoc}
 
-我們會處理安裝、軟體升級、建立及管理網域，還有硬體維護。服務包含全年無休的性能監視。
+我们处理安装、软件升级、创建和管理域，以及硬件维护。服务包括 24 x 7 运行状况监视器。
 
 
-## 我要負責什麼作業？
+## 我负责做什么工作？
 {: #responsible notoc}
 
-您撰寫將在 {{site.data.keyword.geospatialshort_Geospatial}} 服務及 Streams 內部部署實例上執行的應用程式，並確定它們正確地發揮作用，且滿足效能需求。您也負責任何應用程式特定的監視。
+您编写要在 {{site.data.keyword.geospatialshort_Geospatial}} 服务和 Streams 实例内部部署中运行的应用程序，并确保它们运作正常且满足性能需求。您还负责任何特定于应用程序的监视。
 
 
-## 我需要配置 Geospatial Analytics 服務嗎？
+## 我需要配置 Geospatial Analytics 服务吗？
 {: #configure notoc}
 
-服務由 IBM 建立及完全管理。
+该服务由 IBM 创建并完全管理。
 
-## 我可以直接登入 Geospatial Analytics 服務主機嗎？
+## 我可以直接登录到 Geospatial Analytics 服务主机吗？
 {: #host notoc}
 
-不可以。不支援使用 Telnet 或安全 Shell (ssh) 直接登入伺服器。您無法在 Streams 主機上安裝其他軟體或執行非 Streams 軟體。
+不可以。不支持使用 Telnet 或 Secure Shell (ssh) 直接登录到服务器。您无法在 Streams 主机上安装其他软件或运行非 Streams 软件。

@@ -13,18 +13,18 @@ lastupdated: "2017-12-15"
 {:screen: .screen}
 {:pre: .pre}
 
-#關於
+#关于
 {: #about}
 
 
-您可以使用 {{site.data.keyword.geospatialshort_Geospatial}} 服務，以監視裝置何時進入或離開您指定的位置。您也可以偵測裝置是否在地區內的時間超過指定的居留時間（停留偵測）。啟動服務之後，監視器會開啟，且服務會持續收到來自 MQTT 訊息分配管理系統的裝置資訊。當您停止服務時，監視便關閉。
+使用 {{site.data.keyword.geospatialshort_Geospatial}} 服务监视设备何时进入和离开您指定的位置。您还可以检测设备停留在某个区域内的时间是否比指定的停留时间长（聚集位置检测）。在启动服务后，就会启用监视，并且服务持续从 MQTT 消息代理接收设备信息。停止服务时，会关闭监视。
 {:shortdesc}
 
 
-物聯網中有數十億台相連的裝置，且預測指出在接下來幾年會有快速的成長。有許多的物件要追蹤。知道移動中裝置的位置開啟了許多令人興奮的新應用程式機會。
+物联网中有上亿已连接的设备，预测未来几年的急速增长率。有很多要跟踪的对象。感知移动设备的位置促使很多有趣的新应用程序应运而生。
 
-* 將即時促銷提供給接近特定零售位置的客戶。
-* 警示避開地區（例如，發生意外或緊急狀況的地區）的汽車或其他連接裝置。
+* 向特定零售位置附近的客户提供实时促销。
+* 警告区域的车辆或其他已连接设备绕行，例如，在发生事故或紧急情况时。
 
 
-開始使用地理空間裝置監視的最簡單方式是使用[入門範本應用程式 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html)。此入門範本應用程式顯示如何透過其 REST API 來配置及控制 {{site.data.keyword.geospatialshort_Geospatial}} 服務。您也可以修改應用程式碼，並將變更推送回 {{site.data.keyword.Bluemix_notm}} 環境。
+开始使用地理空间设备监视的最简单方法是使用[入门模板应用程序 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html)。此入门模板应用程序向您显示如何通过其 REST API 配置和控制 {{site.data.keyword.geospatialshort_Geospatial}} 服务。您还可以修改应用程序代码并将更改推送回 {{site.data.keyword.Bluemix_notm}} 环境。

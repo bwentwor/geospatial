@@ -13,17 +13,17 @@ lastupdated: "2017-12-15"
 {:screen: .screen}
 {:pre: .pre}
 
-#VCAP_SERVICES 環境資訊
+#VCAP_SERVICES 环境信息
 {: #vcap_services}
 
 
-VCAP_SERVICES 環境變數包括使用 {{site.data.keyword.geospatialshort_Geospatial}} REST API 所需的資訊。
+VCAP_SERVICES 环境变量包含使用 {{site.data.keyword.geospatialshort_Geospatial}} REST API 所需的信息。
 {:shortdesc}
 
-##說明
+##描述
 {: #vcap_description}
 
-VCAP_SERVICES 環境變數包括與下列範例類似的資訊：
+VCAP_SERVICES 环境变量包含类似以下示例的信息：
 
 <pre><code>
 "Geospatial Analytics": {
@@ -46,29 +46,29 @@ VCAP_SERVICES 環境變數包括與下列範例類似的資訊：
   }
 </code></pre>
 
-VCAP_SERVICES 環境變數包括下列項目：
+VCAP_SERVICES 环境变量包含以下项：
 
-* key：{{site.data.keyword.geospatialshort_Geospatial}} 服務的名稱 [{{site.data.keyword.geospatialshort_Geospatial}}]。
-* name：服務實例的名稱。
-* label：服務的名稱。
-* plan：服務方案的名稱。
-* start_path：REST API 的 start 方法所使用的路徑。
-* geo_host：{{site.data.keyword.geospatialshort_Geospatial}} 伺服器的主機名稱。
-* status_path：REST API 的 status 方法所使用的路徑。
-* remove_region_path：REST API 的 remove_region 方法所使用的路徑。
-* userid：向 {{site.data.keyword.geospatialshort_Geospatial}} 伺服器鑑別用的使用者 ID。
-* stop_path：REST API 的 stop 方法所使用的路徑。
-* dashboard_path：用來將資訊列印至儀表板的路徑。
-* restart_path：REST API 的 restart 方法所使用的路徑。
-* geo_port：{{site.data.keyword.geospatialshort_Geospatial}} 伺服器的埠號。
-* password：向 {{site.data.keyword.geospatialshort_Geospatial}} 伺服器鑑別用的密碼。
-* add_region_path：REST API 的 add_region 方法所使用的路徑。
+* key：{{site.data.keyword.geospatialshort_Geospatial}} 服务 [{{site.data.keyword.geospatialshort_Geospatial}}] 的名称。
+* name：服务实例的名称。
+* label：服务的名称。
+* plan：服务套餐的名称。
+* start_path：REST API 的 start 方法使用的路径。
+* geo_host：{{site.data.keyword.geospatialshort_Geospatial}} 服务器的主机名。
+* status_path：REST API 的 status 方法使用的路径。
+* remove_region_path：REST API 的 remove_region 方法使用的路径。
+* userid：用于对 {{site.data.keyword.geospatialshort_Geospatial}} 服务器进行认证的用户标识。
+* stop_path：REST API 的 stop 方法使用的路径。
+* dashboard_path：用于将信息打印到仪表板的路径。
+* restart_path：REST API 的 restart 方法使用的路径。
+* geo_port：{{site.data.keyword.geospatialshort_Geospatial}} 服务器的端口号。
+* password：用于对 {{site.data.keyword.geospatialshort_Geospatial}} 服务器进行认证的密码。
+* add_region_path：REST API 的 add_region 方法使用的路径。
 
 
-##範例：擷取 VCAP_SERVICES 環境變數資訊
+##示例：检索 VCAP_SERVICES 环境变量信息
 {: #vcap_example}
 
-下列 Node.js 程式碼會擷取服務環境資訊：
+以下 Node.js 代码检索服务环境信息：
 
 <pre><code>
 var geo_props = {};
@@ -78,17 +78,17 @@ if (process.env.VCAP_SERVICES)
 {
 	var env = JSON.parse(process.env.VCAP_SERVICES);
 
-	// Debugging
-	for (var svcName in env) {
+// Debugging
+for (var svcName in env) {
 		console.log(svcName);
 	}
 	console.log(env);
-	// Find the service
-	if (env['Geospatial Analytics']) {
+// Find the service
+if (env['Geospatial Analytics']) {
 		geo_props = env['Geospatial Analytics'][0]['credentials'];
 	}
 	else {
-		console.log('You must bind the Geospatial Analytics service to this application');
+console.log('You must bind the Geospatial Analytics service to this application');
 	}
 }
 </code></pre>

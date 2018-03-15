@@ -13,58 +13,58 @@ lastupdated: "2017-12-15"
 {:screen: .screen}
 {:pre: .pre}
 
-# 入門指導教學
+# 入门教程
 {: #pushing_starter_app}
 
-延展您應用程式的界限。利用即時地理空間分析來追蹤裝置何時進入、離開或停留在定義的地區。在此入門指導教學中，您將部署入門範本應用程式，並快速瞭解如何使用 {{site.data.keyword.geospatialshort_Geospatial}} 服務：
+扩展应用程序的边界。利用实时地理空间分析来跟踪设备何时进入、离开所定义的区域或在所定义的区域逗留。在此入门教程中，您将部署入门模板应用程序并快速了解如何使用 {{site.data.keyword.geospatialshort_Geospatial}} 服务：
 {:shortdesc}
 
-## 開始之前
+## 开始之前
 {: #prereqs}
 
-部署入門範本應用程式之前，您必須遵循下列步驟：
+部署入门模板应用程序之前，您必须遵循以下步骤：
 
-* 登錄 [{{site.data.keyword.Bluemix_notm}} 帳戶 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.{DomainName}/registration){:new_window}
-* 在您的 {{site.data.keyword.Bluemix_notm}} 組織中建立 {{site.data.keyword.geospatialshort_Geospatial}} 服務的實例。您可以直接從 [{{site.data.keyword.Bluemix_notm}} 服務型錄的 {{site.data.keyword.geospatialshort_Geospatial}} 頁面 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.{DomainName}/catalog/services/geospatial-analytics/){:new_window} 建立實例。  
-* [安裝 {{site.data.keyword.Bluemix_notm}} CLI](https://console.bluemix.net/docs/cloud-platform/cli/reference/bluemix_cli/download_cli.html#download_install)。
+* 注册 [{{site.data.keyword.Bluemix_notm}} 帐户 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.{DomainName}/registration){:new_window}
+* 在 {{site.data.keyword.Bluemix_notm}} 组织中创建 {{site.data.keyword.geospatialshort_Geospatial}} 服务的实例。您可以直接通过 [{{site.data.keyword.Bluemix_notm}} 服务目录中的 {{site.data.keyword.geospatialshort_Geospatial}} 页面 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.{DomainName}/catalog/services/geospatial-analytics/){:new_window} 创建实例。  
+* [安装 {{site.data.keyword.Bluemix_notm}} CLI](https://console.bluemix.net/docs/cloud-platform/cli/reference/bluemix_cli/download_cli.html#download_install)。
 
-## 步驟 1：建立應用程式並將應用程式連接至您的服務
+## 步骤 1：创建应用程序并将应用程序连接到服务
 {: #create_connect}
 
-1. 在 {{site.data.keyword.Bluemix_notm}} 中建立應用程式：
+1. 在 {{site.data.keyword.Bluemix_notm}} 中创建应用程序：
 
-    a. 在 {{site.data.keyword.Bluemix_notm}} 功能表中，選取 **Cloud Foundry 應用程式**，然後按一下**建立資源**。
+    a. 在 {{site.data.keyword.Bluemix_notm}} 菜单中，选择 **Cloud Foundry 应用程序**并单击**创建资源**。
 
-    b. 選取應用程式的 {{site.data.keyword.sdk4node}} 運行環境。
-    **附註：**這些指示也適用於 Node-RED 入門範本樣板。
+    b. 选择应用程序的 {{site.data.keyword.sdk4node}} 运行时。
+    **注：**这些指示信息对 Node-RED 入门模板样本同样有效。
 
-      請記住您提供給應用程式的名稱，稍後您會需要用到它。
+      请记住您为应用程序指定的名称，您稍后将需要该名称。
 
-## 步驟 2：設定入門範本應用程式
+## 步骤 2：设置入门模板应用程序
 {: #setup_app}
 
-1. 下載 [{{site.data.keyword.geospatialshort_Geospatial}}  入門範本應用程式 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://developer.ibm.com/streamsdev/wp-content/uploads/sites/15/2017/09/geo-starter.zip)。
+1. 下载 [{{site.data.keyword.geospatialshort_Geospatial}} 入门模板应用程序 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://developer.ibm.com/streamsdev/wp-content/uploads/sites/15/2017/09/geo-starter.zip)。
 
-1. 重新命名目錄，以符合您在 {{site.data.keyword.Bluemix_notm}} 中提供給應用程式的名稱。
-1. 將 {{site.data.keyword.geospatialshort_Geospatial}} 服務實例連接至您的應用程式，然後重新編譯打包應用程式。
+1. 重命名目录以匹配在 {{site.data.keyword.Bluemix_notm}} 中为应用程序指定的名称。
+1. 将 {{site.data.keyword.geospatialshort_Geospatial}} 服务实例连接到应用程序并重新编译打包应用程序。
 
-## 步驟 3：部署入門範本應用程式
+## 步骤 3：部署入门模板应用程序
 {: #deploy_app}
 
-1. 移至入門範本應用程式目錄：
+1. 转至入门模板应用程序目录：
   <pre><code>cd mygeoapp</code></pre>
   {:pre}
 
-1. 登入 {{site.data.keyword.Bluemix_notm}}，並在提示時設定目標組織：
+1. 登录到 {{site.data.keyword.Bluemix_notm}}，然后在提示时设置目标组织：
   <pre><code>bx login</code></pre>
   {:pre}
 
-1. 將應用程式推送至 {{site.data.keyword.Bluemix_notm}}：
+1. 将应用程序推送到 {{site.data.keyword.Bluemix_notm}}：
   <pre><code>bx app push mygeoapp</code></pre>
   {:pre}
 
-## 下一步
+## 接下来执行的操作
 {: #next}
 
-* 移至您的應用程式概觀頁面（可從 {{site.data.keyword.Bluemix_notm}} 儀表板存取），以驗證您的應用程式已順利啟動。
-* 啟動應用程式以在瀏覽器中看到它。您可以在應用程式概觀頁面上找到應用程式的 URL（或「路徑」）。範例應用程式的網頁會顯示應用程式碼中 REST API 呼叫狀態的相關資訊，以及 {{site.data.keyword.geospatialshort_Geospatial}} 偵測到的事件。
+* 转至可从 {{site.data.keyword.Bluemix_notm}} 仪表板访问的应用程序概述页面，以验证应用程序已成功启动。
+* 启动应用程序，以在浏览器中进行查看。可以在应用程序概述页面上找到应用程序的 URL（或“路径”）。样本应用程序的网页显示有关应用程序代码中 REST API 调用的状态和 {{site.data.keyword.geospatialshort_Geospatial}} 检测到的事件的信息。
