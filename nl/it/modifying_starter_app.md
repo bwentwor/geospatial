@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-03-09"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -24,9 +24,9 @@ Una semplice modifica consiste nell'aumentare o rimuovere il limite di eventi ne
         prolungarne l'esecuzione.
 
 1. Apri app.js in un editor di testo o un ambiente di sviluppo.
-2. Modifica la variabile eventTarget o elimina questa riga per rimuovere del tutto il limite di eventi.
+1. Modifica la variabile `eventTarget` oppure elimina questa riga per rimuovere del tutto il limite di eventi:
 	 <pre><code>var eventTarget = 100;</code></pre>
-3. Se vuoi rimuovere il limite di eventi, dovrai eliminare anche la seguente condizione if:
+1. Se vuoi rimuovere il limite di eventi, dovrai eliminare anche la seguente condizione if:
 	 <pre><code>  
 	if (eventCount >= eventTarget) {
 		    status_step[3] = "Completed";
@@ -34,9 +34,9 @@ Una semplice modifica consiste nell'aumentare o rimuovere il limite di eventi ne
 		    callback(null, null);
 		    }
 	</code></pre>
-4. Distribuisci nuovamente la tua applicazione modificata a {{site.data.keyword.Bluemix_notm}} con il comando cf push.
+1. Distribuisci nuovamente la tua applicazione modificata a {{site.data.keyword.Bluemix_notm}} con il comando cf push.
 	 <pre><code>  
-	cf push myapp
+	bx app push mygeoapp
 	</code></pre>
-5. Immetti l'URL o "rotta" della tua applicazione nel browser o avviala dal
+1. Immetti l'URL o "rotta" della tua applicazione nel browser o avviala dal
              dashboard {{site.data.keyword.Bluemix_notm}}.

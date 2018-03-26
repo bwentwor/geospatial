@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-03-09"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -22,29 +22,21 @@ lastupdated: "2017-03-09"
 Prima di iniziare, assicurati di soddisfare i seguenti requisiti:
 
 * Scegli un ambiente di runtime per l'applicazione in {{site.data.keyword.Bluemix_notm}}, ad esempi SDK for Node.js. Gli esempi
-di codice che vengono mostrati qui utilizzano tutti Node.js. Anche l'applicazione starter
-è scritta in Node.js.
-* Installa la [CLI (command-line interface) cf](/docs/starters/install_cli.html){:new_window} per interagire con {{site.data.keyword.Bluemix_notm}} dalla riga comandi.
-* Assicurati di disporre di un broker dei messaggi [MQTT](http://mqtt.org/){:new_window}
-per fornire i dati del dispositivo geospaziale e ricevere notifiche sugli eventi
- per i dispositivi. L'applicazione starter punta a un broker dei messaggi che genera informazioni sul dispositivo simulato. Il
-servizio [Internet of Things Platform](https://console.ng.bluemix.net/catalog/services/internet-of-things-platform/){:new_window} in {{site.data.keyword.Bluemix_notm}} è una soluzione per soddisfare l'esigenza di un
-broker di messaggi MQTT. Per ulteriori informazioni su come utilizzare {{site.data.keyword.geospatialshort_Geospatial}} con il servizio Piattaforma Internet delle cose, vedi [Build a connected-car IoT app with {{site.data.keyword.geospatialshort_Geospatial}}](http://www.ibm.com/developerworks/mobile/library/mo-connectedcar-app/index.html){:new_window}.
+di codice che vengono mostrati qui utilizzano tutti Node.js. Anche l'applicazione starter è scritta in Node.js.
+* [Installa la CLI {{site.data.keyword.Bluemix_notm}} ](https://console.bluemix.net/docs/cloud-platform/cli/reference/bluemix_cli/download_cli.html#download_install){:new_window} per interagire con {{site.data.keyword.Bluemix_notm}} dalla riga di comando.
+* Assicurati di disporre di un [broker dei messaggi MQTT ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://mqtt.org/){:new_window} per fornire i dati del dispositivo geospaziale e ricevere le notifiche di evento per i dispositivi. L'applicazione starter punta a un broker dei messaggi che genera informazioni sul dispositivo simulato. Il servizio [Internet of Things Platform](https://console.bluemix.net/catalog/services/internet-of-things-platform/){:new_window} in {{site.data.keyword.Bluemix_notm}} è una soluzione per soddisfare l'esigenza di un broker di messaggi MQTT. Per ulteriori informazioni su come utilizzare {{site.data.keyword.geospatialshort_Geospatial}} con il servizio Internet of Things Platform, consulta [Build a connected-car IoT app with {{site.data.keyword.geospatialshort_Geospatial}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://www.ibm.com/developerworks/mobile/library/mo-connectedcar-app/index.html){:new_window}.
 
-Per informazioni sui requisiti e la configurazione dei messaggi del
-dispositivo MQTT, vedi [Requisiti di sistema](/docs/services/geospatial/requirements.html){:new_window}.
+Per informazioni sui requisiti e la configurazione dei messaggi del dispositivo MQTT, vedi [Requisiti di sistema](/docs/services/geospatial/requirements.html){:new_window}.
 
 
 Per iniziare a lavorare con {{site.data.keyword.geospatialshort_Geospatial}}:
 
-1. Crea la tua applicazione in {{site.data.keyword.Bluemix_notm}} con
-uno dei runtime disponibili. SDK for Node.js™ funziona con i frammenti di codice qui forniti.
+1. Crea la tua applicazione in {{site.data.keyword.Bluemix_notm}} con uno dei runtime disponibili. SDK for Node.js™ funziona con i frammenti di codice qui forniti.
 
 	Puoi anche iniziare a utilizzare {{site.data.keyword.geospatialshort_Geospatial}} immediatamente eseguendo l'applicazione starter.
 
-2. Aggiungi un servizio {{site.data.keyword.geospatialshort_Geospatial}}
-alla tua applicazione.
-3. Scrivi il tuo codice applicativo e includi le seguenti azioni:
+1. Aggiungi un servizio {{site.data.keyword.geospatialshort_Geospatial}} alla tua applicazione.
+1. Scrivi il tuo codice applicativo e includi le seguenti azioni:
 
 	1. All'interno della tua applicazione, ottieni le informazioni della variabile di ambiente VCAP_SERVICES per {{site.data.keyword.geospatialshort_Geospatial}}. L'applicazione necessita di queste informazioni per utilizzare l'API REST. Il seguente frammento di codice è un esempio di come analizzare la [variabile di ambiente VCAP_SERVICES.](/docs/services/geospatial/vcap_services.html)
 	<pre><code>		 	
@@ -68,10 +60,7 @@ alla tua applicazione.
 			}
 		}
 	</code></pre>
-	2. Configure and control the geospatial service through the REST API. Come minimo, devi definire una regione geografica
-e avviare il servizio. Il [riferimento all'API REST](https://console.ng.bluemix.net/apidocs/246) include
-esempi di codice per altre funzioni che puoi
-utilizzare per creare un'applicazione più complessa. Frammento di codice: Defnire una regione.
+	1. Configura e controlla il servizio {{site.data.keyword.geospatialshort_Geospatial}} tramite la API REST. Come minimo, devi definire una regione geografica e avviare il servizio. La [guida di riferimento alla API REST ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.bluemix.net/apidocs/246) include degli esempi di codice per ulteriori funzioni che puoi usare per creare un'applicazione più complessa. Frammento di codice: Definire una regione.
 	<pre><code>
 
 		//
@@ -131,9 +120,9 @@ utilizzare per creare un'applicazione più complessa. Frammento di codice: Defni
 		//
 
 		</code></pre>
-	3. Avvia il servizio per iniziare a ricevere messaggi del dispositivo da MQTT. Frammento di codice: Avviare il servizio.
-	<pre><code>		
+	1. Avvia il servizio per iniziare a ricevere messaggi del dispositivo da MQTT. Frammento di codice: Avviare il servizio.
 
+		<pre><code>							
 				//
 				// Begin - PUT start
 				//
@@ -198,11 +187,7 @@ utilizzare per creare un'applicazione più complessa. Frammento di codice: Defni
 				// PUT-start end
 				//
 	</code></pre>
-  
-4. Distribuisci la tua applicazione a {{site.data.keyword.Bluemix_notm}}
-  con i comandi della riga di comando. Per ulteriori informazioni
-su come distribuire la tua applicazione, consulta la sezione
-intitolata [Distribuzione
-dell'applicazione starter a {{site.data.keyword.Bluemix_notm}}](/docs/services/geospatial/pushing_starter_app.html).
+      
+1. Distribuisci la tua applicazione a {{site.data.keyword.Bluemix_notm}} con i comandi della riga di comando. Puoi trovare ulteriori informazioni su come eseguire la distribuzione della tua applicazione nella sezione denominata [Esercitazione introduttiva](/docs/services/geospatial/pushing_starter_app.html).
 
-5. Accedi all'applicazione nel tuo browser. Puoi trovare l'URL (o "rotta") della tua applicazione nella pagina della panoramica dell'applicazione, accessibile dal dashboard {{site.data.keyword.Bluemix_notm}}.
+1. Accedi all'applicazione nel tuo browser. Puoi trovare l'URL (o "rotta") della tua applicazione nella pagina della panoramica dell'applicazione, accessibile dal dashboard {{site.data.keyword.Bluemix_notm}}.

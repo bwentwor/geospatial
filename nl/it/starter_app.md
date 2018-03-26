@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-27"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -17,8 +17,7 @@ lastupdated: "2017-10-27"
 {: #starter_app}
 
 
-{{site.data.keyword.geospatialshort_Geospatial}} include un'applicazione
-starter che puoi utilizzare come un template per sperimentare ed effettuare e introdurre modifiche
+{{site.data.keyword.geospatialshort_Geospatial}} include un'[applicazione starter![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://developer.ibm.com/streamsdev/wp-content/uploads/sites/15/2017/09/geo-starter.zip) che puoi utilizzare come un template per sperimentare, effettuare e introdurre modifiche
 all'ambiente {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
@@ -34,5 +33,4 @@ all'altra su una mappa. Il
     Node.js, ti mostra come configurare e controllare il servizio {{site.data.keyword.geospatialshort_Geospatial}} attraverso la sua API REST.
 
 
-Puoi eseguire l'applicazione starter senza alcuna modifica. Se vuoi sperimentare ulteriormente con il
-    servizio, puoi anche modificare il codice e ridistribuire le modifiche all'ambiente {{site.data.keyword.Bluemix_short}}. Controlla [Monitor mobile devices with the {{site.data.keyword.geospatialshort_Geospatial}} service]( https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html) per i dettagli su come eseguire ed estendere l'applicazione starter {{site.data.keyword.geospatialshort_Geospatial}}.
+Puoi eseguire l'applicazione starter senza alcuna modifica. Se vuoi sperimentare ulteriormente con il servizio, puoi anche [modificare il codice](/docs/services/geospatial/modifying_starter_app.html) e ridistribuire le modifiche all'ambiente {{site.data.keyword.Bluemix_short}}. Verifica [Monitor mobile devices with the {{site.data.keyword.geospatialshort_Geospatial}} service ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html) per i dettagli su come eseguire ed estendere l'applicazione starter {{site.data.keyword.geospatialshort_Geospatial}}.
