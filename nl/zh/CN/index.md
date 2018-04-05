@@ -22,7 +22,7 @@ lastupdated: "2017-12-15"
 开始之前，请先确保满足下列要求：
 
 * 决定 {{site.data.keyword.Bluemix_notm}} 中应用程序的运行时环境，如 SDK for Node.js。此处显示的代码示例全都使用 Node.js。入门模板应用程序也使用 Node.js 编写。
-* [安装 {{site.data.keyword.Bluemix_notm}} CLI](https://console.bluemix.net/docs/cloud-platform/cli/reference/bluemix_cli/download_cli.html#download_install){:new_window} 以通过命令行与 {{site.data.keyword.Bluemix_notm}} 交互。
+* [安装 {{site.data.keyword.Bluemix_notm}} CLI](https://console.bluemix.net/docs/cli/reference/bluemix_cli/get_started.html#getting-started){:new_window} 以通过命令行与 {{site.data.keyword.Bluemix_notm}} 交互。
 * 确保您有 [MQTT ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://mqtt.org/){:new_window} 消息代理，以提供地理空间设备数据和接收设备的事件通知。入门模板应用程序指向生成模拟设备信息的消息代理。{{site.data.keyword.Bluemix_notm}} 中的 [Internet of Things Platform](https://console.bluemix.net/catalog/services/internet-of-things-platform/){:new_window} 服务是用于实现 MQTT 消息代理需求的解决方案。有关如何搭配使用 {{site.data.keyword.geospatialshort_Geospatial}} 和 Internet of Things Platform 服务的更多信息，请参阅 [Build a connected-car IoT app with {{site.data.keyword.geospatialshort_Geospatial}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://www.ibm.com/developerworks/mobile/library/mo-connectedcar-app/index.html){:new_window}。
 
 请参阅[服务需求](/docs/services/geospatial/requirements.html){:new_window}，了解有关 MQTT 设备消息需求和配置的信息。

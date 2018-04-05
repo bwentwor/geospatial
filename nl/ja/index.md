@@ -22,7 +22,7 @@ lastupdated: "2017-12-15"
 始める前に、以下の要件に適合していることを確認してください。
 
 * {{site.data.keyword.Bluemix_notm}} のアプリケーション用のランタイム環境 (例えば SDK for Node.js) を決定します。 ここで示されるすべてのコード例は Node.js を使用しています。 スターター・アプリケーションも Node.js を使用して作成されています。
-* コマンド・ラインから {{site.data.keyword.Bluemix_notm}} と対話できるように、[{{site.data.keyword.Bluemix_notm}} CLI をインストール](https://console.bluemix.net/docs/cloud-platform/cli/reference/bluemix_cli/download_cli.html#download_install){:new_window}します。
+* コマンド・ラインから {{site.data.keyword.Bluemix_notm}} と対話できるように、[{{site.data.keyword.Bluemix_notm}} CLI をインストール](https://console.bluemix.net/docs/cli/reference/bluemix_cli/get_started.html#getting-started){:new_window}します。
 * デバイスの地理情報データを供給し、デバイスに関するイベント通知を受信するための、[MQTT ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://mqtt.org/){:new_window} メッセージ・ブローカーがあることを確認します。スターター・アプリケーションは、シミュレートされたデバイスの情報を生成するメッセージ・ブローカーをポイントします。 {{site.data.keyword.Bluemix_notm}} の
 [Internet of Things Platform](https://console.bluemix.net/catalog/services/internet-of-things-platform/){:new_window} サービス
 は、MQTT メッセージ・ブローカーのニーズを満たすソリューションです。 {{site.data.keyword.geospatialshort_Geospatial}} を Internet of Things Platform サービスと共に使用する方法について詳しくは、[Build a connected-car IoT app with {{site.data.keyword.geospatialshort_Geospatial}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://www.ibm.com/developerworks/mobile/library/mo-connectedcar-app/index.html){:new_window} を参照してください。

@@ -22,7 +22,7 @@ lastupdated: "2017-12-15"
 시작하기 전에 다음 요구사항을 충족하는지 확인하십시오.
 
 * {{site.data.keyword.Bluemix_notm}}의 애플리케이션에 대한 런타임 환경을 결정하십시오(예: SDK for Node.js). 여기에 나와 있는 코드 예제에서는 모두 Node.js를 사용합니다. 스타터 애플리케이션도 Node.js로 작성되었습니다.
-* 명령행에서 {{site.data.keyword.Bluemix_notm}}와 상호작용하도록 [{{site.data.keyword.Bluemix_notm}} CLI를 설치](https://console.bluemix.net/docs/cloud-platform/cli/reference/bluemix_cli/download_cli.html#download_install){:new_window}하십시오. 
+* 명령행에서 {{site.data.keyword.Bluemix_notm}}와 상호작용하도록 [{{site.data.keyword.Bluemix_notm}} CLI를 설치](https://console.bluemix.net/docs/cli/reference/bluemix_cli/get_started.html#getting-started){:new_window}하십시오. 
 * [MQTT ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://mqtt.org/){:new_window} 메시지 브로커가 있으며 지리공간 디바이스 데이터를 제공하고 디바이스에 대한 이벤트 알림을 수신하는지 확인하십시오. 스타터 애플리케이션은 시뮬레이션된 디바이스 정보를 생성하는 메시지 브로커를 가리킵니다. {{site.data.keyword.Bluemix_notm}}의 [Internet of Things Platform](https://console.bluemix.net/catalog/services/internet-of-things-platform/){:new_window} 서비스는 MQTT 메시지 브로커의 필요를 충족시키는 솔루션입니다. Internet of Things Platform 서비스와 함께 {{site.data.keyword.geospatialshort_Geospatial}} 서비스를 사용하는 방법에 대한 자세한 정보는 [{{site.data.keyword.geospatialshort_Geospatial}} 서비스를 사용하여 커넥티드 카 IoT 앱 구축 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://www.ibm.com/developerworks/mobile/library/mo-connectedcar-app/index.html){:new_window}을 참조하십시오.
 
 MQTT 디바이스 메시지 요구사항 및 구성에 대한 정보는 [서비스 요구사항](/docs/services/geospatial/requirements.html){:new_window}을 참조하십시오.
