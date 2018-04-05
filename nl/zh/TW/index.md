@@ -14,30 +14,30 @@ lastupdated: "2017-12-15"
 {:pre: .pre}
 
 
-#{{site.data.keyword.geospatialshort_Geospatial}} 入门
+#開始使用 {{site.data.keyword.geospatialshort_Geospatial}}
 {: #gettingstarted}
 
-{{site.data.keyword.geospatialfull}} 可从 {{site.data.keyword.Bluemix_notm}} 中的应用程序监视移动中的设备。
+{{site.data.keyword.geospatialfull}} 會在 {{site.data.keyword.Bluemix_notm}} 中從應用程式監視移動中的裝置。
 
-开始之前，请先确保满足下列要求：
+開始之前，請確定您符合下列需求：
 
-* 决定 {{site.data.keyword.Bluemix_notm}} 中应用程序的运行时环境，如 SDK for Node.js。此处显示的代码示例全都使用 Node.js。入门模板应用程序也使用 Node.js 编写。
-* [安装 {{site.data.keyword.Bluemix_notm}} CLI](https://console.bluemix.net/docs/cloud-platform/cli/reference/bluemix_cli/download_cli.html#download_install){:new_window} 以通过命令行与 {{site.data.keyword.Bluemix_notm}} 交互。
-* 确保您有 [MQTT ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://mqtt.org/){:new_window} 消息代理，以提供地理空间设备数据和接收设备的事件通知。入门模板应用程序指向生成模拟设备信息的消息代理。{{site.data.keyword.Bluemix_notm}} 中的 [Internet of Things Platform](https://console.bluemix.net/catalog/services/internet-of-things-platform/){:new_window} 服务是用于实现 MQTT 消息代理需求的解决方案。有关如何搭配使用 {{site.data.keyword.geospatialshort_Geospatial}} 和 Internet of Things Platform 服务的更多信息，请参阅 [Build a connected-car IoT app with {{site.data.keyword.geospatialshort_Geospatial}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://www.ibm.com/developerworks/mobile/library/mo-connectedcar-app/index.html){:new_window}。
+* 在 {{site.data.keyword.Bluemix_notm}} 中選定應用程式的運行環境，例如 SDK for Node.js。這裡顯示的程式碼範例都是使用 Node.js。入門範本應用程式也是使用 Node.js 所撰寫。
+* [安裝 {{site.data.keyword.Bluemix_notm}} CLI](https://console.bluemix.net/docs/cloud-platform/cli/reference/bluemix_cli/download_cli.html#download_install){:new_window}，可透過指令行與 {{site.data.keyword.Bluemix_notm}} 互動。
+* 確定您具有 [MQTT ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://mqtt.org/){:new_window} 訊息分配管理系統，可提供地理空間裝置資料，以及接收裝置的事件通知。入門範本應用程式指向產生模擬裝置資訊的訊息分配管理系統。{{site.data.keyword.Bluemix_notm}} 中的 [Internet of Things Platform](https://console.bluemix.net/catalog/services/internet-of-things-platform/){:new_window} 服務是滿足 MQTT 訊息分配管理系統需要的解決方案。如需如何使用 {{site.data.keyword.geospatialshort_Geospatial}} 搭配 Internet of Things Platform 服務的相關資訊，請參閱 [Build a connected-car IoT app with {{site.data.keyword.geospatialshort_Geospatial}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://www.ibm.com/developerworks/mobile/library/mo-connectedcar-app/index.html){:new_window}。
 
-请参阅[服务需求](/docs/services/geospatial/requirements.html){:new_window}，了解有关 MQTT 设备消息需求和配置的信息。
+如需 MQTT 裝置訊息需求與配置的相關資訊，請參閱[服務需求](/docs/services/geospatial/requirements.html){:new_window}。
 
 
-要开始使用 {{site.data.keyword.geospatialshort_Geospatial}}，请执行以下操作：
+若要開始使用 {{site.data.keyword.geospatialshort_Geospatial}}，請執行下列動作：
 
-1. 使用一个兼容运行时在 {{site.data.keyword.Bluemix_notm}} 中创建应用程序。SDK for Node.js™ 使用下面提供的代码片段。
+1. 使用其中一個相容的運行環境，在 {{site.data.keyword.Bluemix_notm}} 中建立應用程式。SDK for Node.js™ 與這裡提供的程式碼 Snippet 搭配運作。
 
-	此外，还可以通过运行入门模板应用程序立即开始使用 {{site.data.keyword.geospatialshort_Geospatial}}。
+	您也可以執行入門範本應用程式，立即開始使用 {{site.data.keyword.geospatialshort_Geospatial}}。
 
-1. 将 {{site.data.keyword.geospatialshort_Geospatial}} 服务添加到应用程序。
-1. 编写应用程序代码并包含以下操作：
+1. 將 {{site.data.keyword.geospatialshort_Geospatial}} 服務新增至應用程式。
+1. 撰寫應用程式碼，並包含下列動作：
 
-	1. 在应用程序内，获取 {{site.data.keyword.geospatialshort_Geospatial}} 的 VCAP_SERVICES 环境变量信息。应用程序需要此信息才能使用 REST API。以下代码片段举例说明了如何解析 [VCAP_SERVICES 环境变量。](/docs/services/geospatial/vcap_services.html)
+	1. 在應用程式內，取得 {{site.data.keyword.geospatialshort_Geospatial}} 的 VCAP_SERVICES 環境變數資訊。您的應用程式需要此資訊，才能使用 REST API。下列程式碼 Snippet 是如何剖析 [VCAP_SERVICES 環境變數](/docs/services/geospatial/vcap_services.html)的範例。
 	<pre><code>		 	
 		var geo_props = {};
 		// Parse VCAP_SERVICES if running in IBM Cloud
@@ -59,71 +59,73 @@ lastupdated: "2017-12-15"
 			}
 		}
 	</code></pre>
-	1. 通过 REST API 配置和控制 {{site.data.keyword.geospatialshort_Geospatial}} 服务。必须至少定义一个地理区域并启动服务。[REST API 参考 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.bluemix.net/apidocs/246) 包含可在构建更复杂应用程序时使用的多个功能部件的代码示例。代码片段：定义区域。
-  <pre><code>
-    //
-    // Begin - PUT addRegion
-    //
-    console.log("About to call REST PUT-addRegion api");  
+	1. 透過 REST API 配置及控制 {{site.data.keyword.geospatialshort_Geospatial}} 服務。您必須至少定義一個地理區域並且啟動服務。[REST API 參考資料 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.bluemix.net/apidocs/246) 包括可用來建置更複雜應用程式的其他特性的程式碼範例。程式碼 Snippet：定義地區。
+	<pre><code>
 
-    // Create the JSON object
-    jsonObject = JSON.stringify({
-      "regions" : [
-      {"region_type" : "regular", "name" : "Kiosk 3",
-       "notifyOnExit" : "false",
-       "center_latitude" : "36.229531",
-       "center_longitude" : "-115.277874",
-       "number_of_sides" : "10",
-       "distance_to_vertices" : "150"
-     }
-      ]
-    });
+		//
+		// Begin - PUT addRegion
+		//
+		console.log("About to call REST PUT-addRegion api");  
 
-    putheaders = {'Content-Type' : 'application/json',
-        'Content-Length' : Buffer.byteLength(jsonObject, 'utf8'),
-        'Authorization' : authbuf
-    };
+		// Create the JSON object
+		jsonObject = JSON.stringify({
+		  "regions" : [
+		  {"region_type" : "regular", "name" : "Kiosk 3",
+		   "notifyOnExit" : "false",
+		   "center_latitude" : "36.229531",
+		   "center_longitude" : "-115.277874",
+		   "number_of_sides" : "10",
+		   "distance_to_vertices" : "150"
+		 }
+		  ]
+		});
 
-    // The PUT options
-    optionsput = {
-        host : geo_props.geo_host,
-        port : geo_props.geo_port,
-        path : geo_props.add_region_path,
-        method : 'PUT',
-        headers : putheaders
-    };
+		putheaders = {
+		    'Content-Type' : 'application/json',
+		    'Content-Length' : Buffer.byteLength(jsonObject, 'utf8'),
+		    'Authorization' : authbuf
+		};
 
-    console.info('Options prepared:');
-    console.info(optionsput);
-    console.info('Do the PUT-addRegion call');
+		// The PUT options
+		optionsput = {
+		    host : geo_props.geo_host,
+		    port : geo_props.geo_port,
+		    path : geo_props.add_region_path,
+		    method : 'PUT',
+		    headers : putheaders
+		};
 
-    // Do the PUT call
-    reqPut = https.request(optionsput, function(res) {
-        console.log("statusCode: ", res.statusCode);
+		console.info('Options prepared:');
+		console.info(optionsput);
+		console.info('Do the PUT-addRegion call');
 
-        if (res.statusCode != 200)
-  runError = 1;
+		// Do the PUT call
+		reqPut = https.request(optionsput, function(res) {
+		    console.log("statusCode: ", res.statusCode);
 
-        res.on('data', function(d) {
-  console.info('PUT result:\n');
-            process.stdout.write(d);
-            console.info('\n\nPUT completed');
-        });
-    });
+		    if (res.statusCode != 200)
+		        runError = 1;
 
-    // Write the JSON data
-    reqPut.write(jsonObject);
-    reqPut.end();
-    reqPut.on('error', function(e) {
-        console.error(e);
-    });
+		    res.on('data', function(d) {
+		        console.info('PUT result:\n');
+		        process.stdout.write(d);
+		        console.info('\n\nPUT completed');
+		    });
+		});
 
-    //
-    // PUT-addRegion end
-    //
+		// Write the JSON data
+		reqPut.write(jsonObject);
+		reqPut.end();
+		reqPut.on('error', function(e) {
+		    console.error(e);
+		});
 
-    </code></pre>
-	1. 启动服务，以开始从 MQTT 接收设备消息。代码片段：启动服务。
+		//
+		// PUT-addRegion end
+		//
+
+		</code></pre>
+	1. 啟動服務，以開始接收來自 MQTT 的裝置訊息。程式碼 Snippet：啟動服務。
 
 		<pre><code>							
 				//
@@ -190,7 +192,7 @@ lastupdated: "2017-12-15"
 				// PUT-start end
 				//
 	</code></pre>
+      
+1. 使用指令行指令，將應用程式推送至 {{site.data.keyword.Bluemix_notm}}。如何部署應用程式的相關資訊位於標題為[入門指導教學](/docs/services/geospatial/pushing_starter_app.html)的小節。
 
-1. 使用命令行命令将应用程序推送至 {{site.data.keyword.Bluemix_notm}}。在标题为[入门教程](/docs/services/geospatial/pushing_starter_app.html)的章节中，查找有关如何部署应用程序的更多信息。
-
-1. 在浏览器中访问应用程序。您可以在应用程序概述页面上找到应用程序的 URL（或“路径”），可以从 {{site.data.keyword.Bluemix_notm}} 仪表板访问概述页面。
+1. 在瀏覽器存取應用程式。您可以在應用程式概觀頁面上找到應用程式的 URL（或「路徑」），此頁面可從 {{site.data.keyword.Bluemix_notm}} 儀表板存取。

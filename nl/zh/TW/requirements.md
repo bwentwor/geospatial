@@ -13,27 +13,27 @@ lastupdated: "2017-12-15"
 {:screen: .screen}
 {:pre: .pre}
 
-#服务需求
+#服務需求
 {: #requirements}
 
 
-##MQTT 设备消息需求
+##MQTT 裝置訊息需求
 
-* MQTT 消息代理必须以 JSON 格式在一个或多个 MQTT 主题上提供设备消息。
-* 设备消息可以包含任意数量的属性，但是总是需要以下三个属性：
-	* 唯一标识设备的属性。
-	* 指定设备当前位置的维度的属性。
-	* 指定设备当前位置的经度的属性。
-* 支持以下两个消息方式：
-	* MQTT 消息可以包含具有单个设备的相关信息的 JSON 对象。
-	* MQTT 消息可以包含具有一组设备的信息的 JSON 数组对象。
+* MQTT 訊息分配管理系統必須對一個以上的 MQTT 主題提供 JSON 格式的裝置訊息。
+* 裝置訊息可以包含任意數目的屬性，但是一律需要下列三個屬性：
+	* 唯一識別裝置的屬性。
+	* 指定裝置現行位置緯度的屬性。
+	* 指定裝置現行位置經度的屬性。
+* 支援兩種訊息模式：
+	* MQTT 訊息可以包含具有單一裝置相關資訊的 JSON 物件。
+	* MQTT 訊息可以包含具有一組裝置相關資訊的物件的 JSON 陣列。
 
-##MQTT 事件和配置服务
+##MQTT 事件及配置服務
 
-您的应用程序预订 MQTT 消息并通过其 [REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.ng.bluemix.net/apidocs/246) 控制 {{site.data.keyword.geospatialshort_Geospatial}}。可以通过 REST API 调用执行以下操作：
+您的應用程式會訂閱 MQTT 訊息並透過其 [REST API ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.ng.bluemix.net/apidocs/246) 控制 {{site.data.keyword.geospatialshort_Geospatial}}。下列動作可透過 REST API 呼叫進行：
 
-* 配置和启动服务。
-* 添加和除去要监视的地理区域。
-* 检索有关服务状态以及当前定义的区域集的信息。
-* 停止服务。
-* 重新启动已配置的服务。
+* 配置及啟動服務。
+* 新增及移除要監視的地理區域。
+* 擷取服務狀態及目前定義的一組地區的相關資訊。
+* 停止服務。
+* 重新啟動已配置的服務。

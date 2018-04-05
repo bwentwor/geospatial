@@ -13,15 +13,15 @@ lastupdated: "2017-12-15"
 {:screen: .screen}
 {:pre: .pre}
 
-#服务管理仪表板
+#服務管理儀表板
 {: #service-dashboard}
 
 
-您可以查看 {{site.data.keyword.geospatialshort_Geospatial}} 服务实例的状态，并从服务管理仪表板停止或重新启动它。可以通过选择 {{site.data.keyword.geospatialshort_Geospatial}} 仪表板上的 {{site.data.keyword.Bluemix_short}} 服务进入服务管理仪表板。如果使用的是样本应用程序，并且服务实例达到事件限制且停止，您可以重新启动该服务。停止服务将除去事件限制。将继续接收事件，直到停止服务为止。服务管理仪表板还显示服务实例和统计信息的状态。
+您可以從服務管理儀表板看到 {{site.data.keyword.geospatialshort_Geospatial}} 服務實例的狀態，以及停止或重新啟動它。您可以選取 {{site.data.keyword.Bluemix_short}} 儀表板上的 {{site.data.keyword.geospatialshort_Geospatial}} 磚來到達服務管理儀表板。如果您使用範例應用程式，然後服務實例到達事件限制並停止，您可以重新啟動服務。停止服務會移除事件限制。它會繼續接收事件，直到您停止服務為止。服務管理儀表板也會顯示服務實例的狀態和統計資料。
 {:shortdesc}
 
-##{{site.data.keyword.geospatialshort_Geospatial}} 区域检查
+##{{site.data.keyword.geospatialshort_Geospatial}} 地區檢查
 
-{{site.data.keyword.geospatialshort_Geospatial}} 会监视物联网中的移动设备。每个受监视设备都会发送设备消息，其中包含唯一标识以及设备的当前位置（经度和纬度）。首先，根据每个定义的地理区域的坐标来检查设备位置。然后，该服务在设备进入、退出或“聚集”在某个特定区域时生成事件。
+{{site.data.keyword.geospatialshort_Geospatial}} 會從物聯網監視移動中的裝置。每台受監視的裝置都會傳送裝置訊息，其中包含唯一 ID 及其現行位置（包含緯度和經度）。會針對每個已定義的地理區域座標來檢查裝置位置。然後服務會在裝置進入、離開或「停留在」特定地區時產生事件。
 
-区域检查是用于度量 {{site.data.keyword.geospatialshort_Geospatial}} 使用情况的单位。如果为区域指定了入口和/或出口检测，那么对于每条设备消息，会执行一次区域检查。如果为区域指定了聚集位置检测，那么对于每条设备消息，会执行一次区域检查。如果未定义区域，那么对于每条设备消息，会按一次区域检查计，就好像有 1 个区域一样。这意味着，如果定义检查（入口、出口和聚集位置）的区域有 100 个，那么单条设备消息将会生成 200 次区域检查。
+地區檢查用來作為測量 {{site.data.keyword.geospatialshort_Geospatial}} 用量的單位。針對每則裝置訊息，如果有針對該地區指定偵測進入、離開或同時偵測進入與離開，便會執行一次地區檢查。針對每則裝置訊息，如果有針對該地區指定偵測停留，便會執行一次地區檢查。如果未定義任何地區，則針對每則裝置訊息，會計數一次地區檢查，就彷彿有 1 個地區一樣。這表示，如果您有 100 個地區定義了檢查進入、離開和停留，那麼單一則裝置訊息會產生 200 次地區檢查。

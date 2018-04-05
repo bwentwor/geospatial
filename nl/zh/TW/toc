@@ -9,7 +9,7 @@ Geospatial Analytics
     index.md
 
     {: .topicgroup}
-    关于
+    關於
         geospatial.md
         requirements.md
         service-dashboard.md
@@ -18,12 +18,12 @@ Geospatial Analytics
     {: .navgroup id="reference"}
     related_links.md
     vcap_services.md
-    [REST API 参考](https://console.ng.bluemix.net/apidocs/246)
+    [REST API 參考資料](https://console.ng.bluemix.net/apidocs/246)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
     {: .topicgroup}
-    样本应用程序
+    範例應用程式
         starter_app.md
         modifying_starter_app.md
     {: .navgroup-end}

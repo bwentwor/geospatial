@@ -16,62 +16,62 @@ lastupdated: "2017-12-15"
 {:screen: .screen}
 {:pre: .pre}
 
-#{{site.data.keyword.geospatialshort_Geospatial}} 故障诊断
+#{{site.data.keyword.geospatialshort_Geospatial}} 疑難排解
 {: #ts_geospatial}
 
 
-获取在 {{site.data.keyword.Bluemix_short}} 上使用 {{site.data.keyword.geospatialshort_Geospatial}} 时遇到的几个常见问题的解决方法。
+取得在 {{site.data.keyword.Bluemix_short}} 上使用 {{site.data.keyword.geospatialshort_Geospatial}} 的幾個常見問題的回答。
 {:shortdesc}
 
-##我停止应用程序时，服务仍在监视区域
+##當我停止應用程式時，服務仍在監視地區
 {: #stop-monitoring}
 
 
-停止应用程序不会自动停止 {{site.data.keyword.geospatialshort_Geospatial}}。
+停止應用程式並不會自動停止 {{site.data.keyword.geospatialshort_Geospatial}}。
 {:shortdesc}
 
 
-您停止了使用 {{site.data.keyword.geospatialshort_Geospatial}} 的应用程序，但是您在服务管理仪表板上看到服务仍在监视您在应用程序中指定的区域。
+您已停止使用 {{site.data.keyword.geospatialshort_Geospatial}} 的應用程式，但在服務管理儀表板上看到服務仍在監視應用程式中指定的地區。
 {: tsSymptoms}
 
 
-即使停止应用程序，{{site.data.keyword.geospatialshort_Geospatial}} 服务实例也将继续运行。不管应用程序是否在运行，该服务将继续监视区域，直到您停止服务为止。
+如果您停止應用程式，您的 {{site.data.keyword.geospatialshort_Geospatial}} 服務實例將繼續執行。服務會繼續監視地區，直到您停止服務為止，而不論您的應用程式是否在執行中。
 {: tsCauses}
 
 
-从服务管理仪表板上停止 {{site.data.keyword.geospatialshort_Geospatial}}。或者可以修改应用程序以使用 REST API 停止服务，然后将更改推送回 {{site.data.keyword.Bluemix_short}}。
+請從服務管理儀表板停止 {{site.data.keyword.geospatialshort_Geospatial}}。或者，您可以使用 REST API 修改應用程式以停止服務，然後將您的變更推送回 {{site.data.keyword.Bluemix_short}}。
 {: tsResolve}
 
-##服务正在监视我未在应用程序中指定的区域
+##服務正在監視我未在應用程式中指定的地區
 {: #unspecified-region}
 
 
 
-如果您有多个应用程序绑定到同一服务实例，那么另一个应用程序可能已添加这些区域。
+如果您有多個應用程式連結至相同的服務實例，則另一個應用程式可能已新增這些地區。
 {:shortdesc}
 
 
 
-在服务管理仪表板上查看 {{site.data.keyword.geospatialshort_Geospatial}} 实例时，您会看到该实例监视的区域比您在其中一个应用程序中指定的多。
+當您在服務管理儀表板上檢視 {{site.data.keyword.geospatialshort_Geospatial}} 實例時，您看到它正在監視的地區比其中一個應用程式中所指定地區還要多。
 {: tsSymptoms}
 
-{{site.data.keyword.geospatialshort_Geospatial}} 的单个实例会监视绑定到该实例的所有应用程序的区域。这意味着查看服务管理仪表板时，您将看到所有应用程序指定的区域的信息。
+{{site.data.keyword.geospatialshort_Geospatial}} 的單一實例會監視連結到它的所有應用程式的地區。這表示，當您檢視服務管理儀表板時，將看到所有應用程式所指定之地區的資訊。
 {: tsCauses}
 
-要停止 {{site.data.keyword.geospatialshort_Geospatial}} 监视特定区域：
+若要停止 {{site.data.keyword.geospatialshort_Geospatial}} 不再監視特定地區，請執行下列動作：
 
-1. 停止服务。
-2. 修改应用程序以除去那些区域。
-3. 将应用程序推送回 {{site.data.keyword.Bluemix_short}}。
+1. 停止服務。
+2. 修改應用程式以移除那些地區。
+3. 將應用程式推送回 {{site.data.keyword.Bluemix_short}}。
 {: tsResolve}
 
 
-##从服务管理仪表板进行故障诊断
+##從服務管理儀表板進行疑難排解
 {: #dashboard}
 
-当您对应用程序进行故障诊断时，可能想要转至服务管理仪表板来检查服务实例的状态。如果服务未在处理数据，那么您可能能够通过停止并重新启动服务来解决该问题。
+在您對應用程式進行疑難排解時，可以移至服務管理儀表板檢查服務實例的狀態。如果它不在處理資料，您可能可以藉由停止並重新啟動服務來修正問題。
 {:shortdesc}
 
-{{site.data.keyword.geospatialshort_Geospatial}} 服务实例的状态与应用程序的状态是分开的，并且多个应用程序可以绑定到同一服务实例。
+{{site.data.keyword.geospatialshort_Geospatial}} 服務實例的狀態與應用程式的狀態是分開的，數個應用程式可以連結至相同的服務實例。
 
-服务管理仪表板提供有关 {{site.data.keyword.geospatialshort_Geospatial}}（而非绑定到它的应用程序）的状态的信息。服务实例和应用程序的独立状态意味着如果停止应用程序，{{site.data.keyword.geospatialshort_Geospatial}} 服务实例继续运行。服务会继续监视您选择的区域，直到您将其除去为止，不管应用程序是否在运行。
+服務管理儀表板提供 {{site.data.keyword.geospatialshort_Geospatial}} 狀態的相關資訊，而不是連結到它的應用程式相關資訊。服務實例與應用程式的個別狀態，表示如果您停止應用程式，您的 {{site.data.keyword.geospatialshort_Geospatial}} 服務實例會繼續執行。服務會繼續監視您選擇的地區，直到您移除它們為止，而不論您的應用程式是否在執行中。
