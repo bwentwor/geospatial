@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2017-12-15"
+lastupdated: "2018-06-11"
 
 ---
 
@@ -19,10 +19,9 @@ lastupdated: "2017-12-15"
 ## Tutorials and Samples
 {: #samples notoc}
 
-* [{{site.data.keyword.geospatialshort_Geospatial}} starter application tutorial ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html){:new_window}
-* [{{site.data.keyword.geospatialshort_Geospatial}} tutorials on IBM developerWorks ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.ibm.com/developerworks/topics/geospatial%20analytics%20service){:new_window}
-* [Who & Where – Find out with {{site.data.keyword.geospatialshort_Geospatial}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/bluemix/2014/12/17/find-bluemix-geospatial-analytics){:new_window}
-* [Real-time hangout detection with {{site.data.keyword.streaminganalyticsshort}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/bluemix/2016/05/27/real-time-hangout-detection/){:new_window}
+* [{{site.data.keyword.geospatialshort_Geospatial}} starter application tutorial ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/streamsdev/docs/build-real-time-location-monitoring-application-ibm-cloud-geospatial-analytics-node-js/){:new_window}
+* [Whip up a GUI for {{site.data.keyword.geospatialshort_Geospatial}} with this Watson IoT Recipe ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2017/03/whip-gui-geospatial-analytics-watson-iot-recipe/){:new_window}
+* [Build a connected-car IoT app with {{site.data.keyword.geospatialshort_Geospatial}} ![External link icon]](https://www.ibm.com/developerworks/mobile/library/mo-connectedcar-app/index.html){:new_window}
 
 
 ## API Reference
