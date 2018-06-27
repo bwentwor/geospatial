@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-06-11"
 
 ---
 
@@ -19,10 +19,9 @@ lastupdated: "2017-12-15"
 ## Lerntexte und Beispiele
 {: #samples notoc}
 
-* [Lernprogramm für die {{site.data.keyword.geospatialshort_Geospatial}}-Starteranwendung ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html){:new_window}
-* [Lernprogramme für {{site.data.keyword.geospatialshort_Geospatial}} in IBM developerWorks ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://www.ibm.com/developerworks/topics/geospatial%20analytics%20service){:new_window}
-* [Wer & Wo – Finden Sie es heraus mit {{site.data.keyword.geospatialshort_Geospatial}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://developer.ibm.com/bluemix/2014/12/17/find-bluemix-geospatial-analytics){:new_window}
-* [Aufenthaltserkennung in Echtzeit mit {{site.data.keyword.streaminganalyticsshort}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://developer.ibm.com/bluemix/2016/05/27/real-time-hangout-detection/){:new_window}
+* [Lernprogramm für die {{site.data.keyword.geospatialshort_Geospatial}}-Starteranwendung ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://developer.ibm.com/streamsdev/docs/build-real-time-location-monitoring-application-ibm-cloud-geospatial-analytics-node-js/){:new_window}
+* [Grafische Benutzerschnittstelle (GUI) für {{site.data.keyword.geospatialshort_Geospatial}} mit dieser Watson IoT-Anleitung erstellen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/blogs/bluemix/2017/03/whip-gui-geospatial-analytics-watson-iot-recipe/){:new_window}
+* [IoT-App 'Connected Car' mit {{site.data.keyword.geospatialshort_Geospatial}} erstellen ![Symbol für externen Link]](https://www.ibm.com/developerworks/mobile/library/mo-connectedcar-app/index.html){:new_window}
 
 
 ## API-Referenz

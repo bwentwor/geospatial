@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-06-11"
 
 ---
 
@@ -27,4 +27,4 @@ IoT(Internet of Things)에는 수십억 개의 디바이스가 연결되어 있�
 * 사고 또는 긴급 상황이 발생한 지역을 피할 수 있도록 해당 지역 부근의 차량 또는 기타 연결된 디바이스에 경보를 보낼 수 있습니다.
 
 
-지리공간 디바이스 모니터링을 시작하는 가장 손쉬운 방법은 [스타터 애플리케이션 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html)을 사용하는 것입니다. 이 스타터 애플리케이션에서는 REST API를 통해 {{site.data.keyword.geospatialshort_Geospatial}} 서비스를 구성하고 제어하는 방법을 보여줍니다. 또한 애플리케이션 코드를 수정하고 변경사항을 {{site.data.keyword.Bluemix_notm}} 환경에 다시 푸시할 수도 있습니다.
+지리공간 디바이스 모니터링을 시작하는 가장 손쉬운 방법은 [스타터 애플리케이션 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/streamsdev/docs/build-real-time-location-monitoring-application-ibm-cloud-geospatial-analytics-node-js/){:new_window}을 사용하는 것입니다. 이 Node.js 스타터 애플리케이션은 REST API를 통해 {{site.data.keyword.geospatialshort_Geospatial}} 서비스를 구성하고 제어하는 방법을 보여줍니다. 또한 애플리케이션 코드를 수정하고 변경사항을 {{site.data.keyword.Bluemix_notm}} 환경에 다시 푸시할 수도 있습니다.

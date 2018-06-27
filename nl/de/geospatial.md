@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-06-11"
 
 ---
 
@@ -27,4 +27,4 @@ Im Internet der Dinge gibt es Milliarden an verbundenen Geräten und für die n�
 * Warnen von Autos oder anderen verbundenen Geräten vor Regionen, die aufgrund von Unfällen oder anderen Notfallsituationen gemieden werden sollten.
 
 
-Die einfachste Möglichkeit für den Einstieg in die Überwachung von Geodatengeräten ist die Verwendung der [Starteranwendung![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html). In dieser Starteranwendung wird erklärt, wie der {{site.data.keyword.geospatialshort_Geospatial}}-Service über eine REST-API konfiguriert und gesteuert wird. Sie können auch den Anwendungscode ändern und die Änderung per Push-Operation an die {{site.data.keyword.Bluemix_notm}}-Umgebung zurücksenden.
+Die einfachste Möglichkeit für den Einstieg in die Überwachung von Geodatengeräten ist die Verwendung der [Starteranwendung![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://developer.ibm.com/streamsdev/docs/build-real-time-location-monitoring-application-ibm-cloud-geospatial-analytics-node-js/){:new_window}. In dieser Node.js-Starteranwendung wird erklärt, wie der {{site.data.keyword.geospatialshort_Geospatial}}-Service über eine REST-API konfiguriert und gesteuert wird. Sie können auch den Anwendungscode ändern und die Änderung per Push-Operation an die {{site.data.keyword.Bluemix_notm}}-Umgebung zurücksenden.

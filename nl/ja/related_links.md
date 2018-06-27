@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-06-11"
 
 ---
 
@@ -19,10 +19,9 @@ lastupdated: "2017-12-15"
 ## チュートリアルおよびサンプル
 {: #samples notoc}
 
-* [{{site.data.keyword.geospatialshort_Geospatial}} スターター・アプリケーションのチュートリアル (英語) ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html){:new_window}
-* [IBM developerWorks の {{site.data.keyword.geospatialshort_Geospatial}} のチュートリアル (英語) ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://www.ibm.com/developerworks/topics/geospatial%20analytics%20service){:new_window}
-* [Who & Where – Find out with {{site.data.keyword.geospatialshort_Geospatial}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://developer.ibm.com/bluemix/2014/12/17/find-bluemix-geospatial-analytics){:new_window}
-* [Real-time hangout detection with {{site.data.keyword.streaminganalyticsshort}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://developer.ibm.com/bluemix/2016/05/27/real-time-hangout-detection/){:new_window}
+* [{{site.data.keyword.geospatialshort_Geospatial}} スターター・アプリケーションのチュートリアル (英語) ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://developer.ibm.com/streamsdev/docs/build-real-time-location-monitoring-application-ibm-cloud-geospatial-analytics-node-js/){:new_window}
+* [この Watson IoT レシピを使用した、{{site.data.keyword.geospatialshort_Geospatial}} の GUI の作成 (英語) ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/blogs/bluemix/2017/03/whip-gui-geospatial-analytics-watson-iot-recipe/){:new_window}
+* [{{site.data.keyword.geospatialshort_Geospatial}} を使用した、connected-car IoT アプリのビルド (英語) ![外部リンク・アイコン]](https://www.ibm.com/developerworks/mobile/library/mo-connectedcar-app/index.html){:new_window}
 
 
 ## API リファレンス

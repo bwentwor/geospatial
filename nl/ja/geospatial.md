@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-06-11"
 
 ---
 
@@ -27,5 +27,4 @@ IoT には、接続されたデバイスが無数にあり、その増加率は�
 * 回避するべき地域 (例えば、事故または緊急事態が発生した場所) を車両または他の接続されたデバイスに警告する。
 
 
-地理情報デバイス・モニターの使用を開始する最も簡単な方法は、[スターター・アプリケーション ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html) を使用することです。このスターター・アプリケーションは、
-{{site.data.keyword.geospatialshort_Geospatial}} サービスをその REST API を介して構成および制御する方法を示します。 アプリケーション・コードを変更して、変更を {{site.data.keyword.Bluemix_notm}} 環境にプッシュして戻すこともできます。
+地理情報デバイス・モニターの使用を開始する最も簡単な方法は、[スターター・アプリケーション ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://developer.ibm.com/streamsdev/docs/build-real-time-location-monitoring-application-ibm-cloud-geospatial-analytics-node-js/){:new_window} を使用することです。 この Node.js スターター・アプリケーションは、{{site.data.keyword.geospatialshort_Geospatial}} サービスをその REST API を介して構成および制御する方法を示します。アプリケーション・コードを変更して、変更を {{site.data.keyword.Bluemix_notm}} 環境にプッシュして戻すこともできます。

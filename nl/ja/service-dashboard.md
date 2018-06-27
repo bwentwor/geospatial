@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-06-11"
 
 ---
 
@@ -18,7 +18,7 @@ lastupdated: "2017-12-15"
 
 
 サービス管理ダッシュボードから、{{site.data.keyword.geospatialshort_Geospatial}} サービス・インスタンスの状況表示、
-停止、または再始動を行うことができます。 {{site.data.keyword.Bluemix_short}} ダッシュボードの {{site.data.keyword.geospatialshort_Geospatial}} サービスを選択すると、サービス管理ダッシュボードに移動できます。サンプル・アプリケーションを使用していて、サービス・インスタンスがイベント限度に達して停止した場合、サービスを再始動できます。 サービスを停止すると、イベント限度は除去されます。 サービスを停止するまでは、イベントの受信は続けられます。 サービス管理ダッシュボードには、サービス・インスタンスの状況および統計も表示されます。
+停止、または再始動を行うことができます。 {{site.data.keyword.Bluemix_short}} ダッシュボードの {{site.data.keyword.geospatialshort_Geospatial}} サービスを選択すると、サービス管理ダッシュボードに移動できます。 サンプル・アプリケーションを使用していて、サービス・インスタンスがイベント限度に達して停止した場合、サービスを再始動できます。 サービスを停止すると、イベント限度は除去されます。 サービスを停止するまでは、イベントの受信は続けられます。 サービス管理ダッシュボードには、サービス・インスタンスの状況および統計も表示されます。
 {:shortdesc}
 
 ##{{site.data.keyword.geospatialshort_Geospatial}} 地域検査

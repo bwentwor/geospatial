@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-06-11"
 
 ---
 
@@ -30,7 +30,7 @@ lastupdated: "2017-12-15"
 
 ##MQTT イベントとサービスの構成
 
-アプリケーションは MQTT メッセージをサブスクライブし、{{site.data.keyword.geospatialshort_Geospatial}} をその [REST API ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.ng.bluemix.net/apidocs/246) によって制御します。REST API 呼び出しにより使用可能なアクションは次のとおりです。
+アプリケーションは MQTT メッセージをサブスクライブし、{{site.data.keyword.geospatialshort_Geospatial}} をその [REST API ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.ng.bluemix.net/apidocs/246) によって制御します。 REST API 呼び出しにより使用可能なアクションは次のとおりです。
 
 * サービスの構成と開始。
 * モニターする地域の追加と削除。

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-06-11"
 
 ---
 
@@ -19,10 +19,9 @@ lastupdated: "2017-12-15"
 ## 튜토리얼 및 샘플
 {: #samples notoc}
 
-* [{{site.data.keyword.geospatialshort_Geospatial}} 스타터 애플리케이션 튜토리얼 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html){:new_window}
-* [IBM developerWorks의 {{site.data.keyword.geospatialshort_Geospatial}} 튜토리얼 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://www.ibm.com/developerworks/topics/geospatial%20analytics%20service){:new_window}
-* [{{site.data.keyword.geospatialshort_Geospatial}}으로 누가 어디에 있는지 찾기 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/bluemix/2014/12/17/find-bluemix-geospatial-analytics){:new_window}
-* [{{site.data.keyword.streaminganalyticsshort}}를 사용하여 실시간 행아웃 발견 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/bluemix/2016/05/27/real-time-hangout-detection/){:new_window}
+* [{{site.data.keyword.geospatialshort_Geospatial}} 스타터 애플리케이션 튜토리얼 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/streamsdev/docs/build-real-time-location-monitoring-application-ibm-cloud-geospatial-analytics-node-js/){:new_window}
+* [이 Watson IoT 레시피로 {{site.data.keyword.geospatialshort_Geospatial}}에 대한 GUI 구동 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/blogs/bluemix/2017/03/whip-gui-geospatial-analytics-watson-iot-recipe/){:new_window}
+* [{{site.data.keyword.geospatialshort_Geospatial}}를 사용하여 커넥티드 카 IoT 앱 빌드 ![외부 링크 아이콘]](https://www.ibm.com/developerworks/mobile/library/mo-connectedcar-app/index.html){:new_window}
 
 
 ## API 참조

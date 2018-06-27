@@ -5,7 +5,6 @@
 Geospatial Analytics
 
     {: .navgroup id="learn"}
-    pushing_starter_app.md
     index.md
 
     {: .topicgroup}
@@ -22,10 +21,7 @@ Geospatial Analytics
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    {: .topicgroup}
-    範例應用程式
-        starter_app.md
-        modifying_starter_app.md
+    starter_app.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}

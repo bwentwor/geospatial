@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-06-11"
 
 ---
 
@@ -27,4 +27,4 @@ lastupdated: "2017-12-15"
 * 警告区域的车辆或其他已连接设备绕行，例如，在发生事故或紧急情况时。
 
 
-开始使用地理空间设备监视的最简单方法是使用[入门模板应用程序 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html)。此入门模板应用程序向您显示如何通过其 REST API 配置和控制 {{site.data.keyword.geospatialshort_Geospatial}} 服务。您还可以修改应用程序代码并将更改推送回 {{site.data.keyword.Bluemix_notm}} 环境。
+开始使用地理空间设备监视的最简单方法是使用[入门模板应用程序 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://developer.ibm.com/streamsdev/docs/build-real-time-location-monitoring-application-ibm-cloud-geospatial-analytics-node-js/){:new_window}。此 Node.js 入门模板应用程序向您显示如何通过其 REST API 配置和控制 {{site.data.keyword.geospatialshort_Geospatial}} 服务。您还可以修改应用程序代码并将更改推送回 {{site.data.keyword.Bluemix_notm}} 环境。

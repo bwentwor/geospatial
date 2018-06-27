@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-06-11"
 
 ---
 
@@ -27,4 +27,4 @@ lastupdated: "2017-12-15"
 * 警示避開地區（例如，發生意外或緊急狀況的地區）的汽車或其他連接裝置。
 
 
-開始使用地理空間裝置監視的最簡單方式是使用[入門範本應用程式 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html)。此入門範本應用程式顯示如何透過其 REST API 來配置及控制 {{site.data.keyword.geospatialshort_Geospatial}} 服務。您也可以修改應用程式碼，並將變更推送回 {{site.data.keyword.Bluemix_notm}} 環境。
+開始使用地理空間裝置監視的最簡單方式是使用[入門範本應用程式 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://developer.ibm.com/streamsdev/docs/build-real-time-location-monitoring-application-ibm-cloud-geospatial-analytics-node-js/){:new_window}。這個 Node.js 入門範本應用程式顯示如何透過其 REST API 來配置及控制 {{site.data.keyword.geospatialshort_Geospatial}} 服務。您也可以修改應用程式碼，並將變更推送回 {{site.data.keyword.Bluemix_notm}} 環境。

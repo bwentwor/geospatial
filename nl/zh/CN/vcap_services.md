@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-06-11"
 
 ---
 
@@ -72,6 +72,7 @@ VCAP_SERVICES 环境变量包含以下项：
 
 <pre><code>
 var geo_props = {};
+
 
 // Parse VCAP_SERVICES if running in IBM Cloud
 if (process.env.VCAP_SERVICES)
