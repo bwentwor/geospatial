@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-06-11"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-12-15"
 {:screen: .screen}
 {:pre: .pre}
 
-#Acerca de 
+#Acerca de
 {: #about}
 
 
@@ -27,4 +27,4 @@ Hay miles de millones de dispositivos conectados en Internet de las cosas, con p
 * Alertar a automovilistas o a dispositivos sobre regiones que hay que evitar, por ejemplo, en el caso de que se hayan producido situaciones de emergencia o accidentes.
 
 
-El modo más fácil de empezar a supervisar dispositivos geoespaciales es utilizar la [aplicación de inicio ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html). Esta aplicación de inicio le indicará cómo configurar y controlar el servicio {{site.data.keyword.geospatialshort_Geospatial}} a través de su API REST. También puede modificar el código de la aplicación y enviar por push los cambios al entorno de {{site.data.keyword.Bluemix_notm}}.
+El modo más fácil de empezar a supervisar dispositivos geoespaciales es utilizar la [aplicación de inicio ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://developer.ibm.com/streamsdev/docs/build-real-time-location-monitoring-application-ibm-cloud-geospatial-analytics-node-js/){:new_window}. Esta aplicación de inicio Node.js le indicará cómo configurar y controlar el servicio {{site.data.keyword.geospatialshort_Geospatial}} a través de su API REST. También puede modificar el código de la aplicación y enviar por push los cambios al entorno de {{site.data.keyword.Bluemix_notm}}.

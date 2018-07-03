@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-06-11"
 
 ---
 
@@ -23,8 +23,7 @@ La variable d'environnement VCAP_SERVICES contient des informations requises pou
 ##Description
 {: #vcap_description}
 
-La variable d'environnement VCAP_SERVICES contient des informations similaires à l'exemple
-suivant :
+La variable d'environnement VCAP_SERVICES contient des informations similaires à l'exemple suivant :
 
 <pre><code>
 "Geospatial Analytics": {

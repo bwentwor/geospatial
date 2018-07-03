@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-06-11"
 
 ---
 
@@ -40,9 +40,6 @@ ad esempio, le aree in cui si sono verificati incidenti o situazioni di
 emergenza.
 
 
-Il modo più semplice per iniziare a utilizzare il monitoraggio dei dispositivi geospaziali
-consiste nell'utilizzare l'applicazione starter [ ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html). Questa applicazione starter
-ti mostra come configurare e controllare il servizio {{site.data.keyword.geospatialshort_Geospatial}}
-attraverso la sua API REST. Puoi anche modificare il codice applicativo
+Il modo più semplice per iniziare a utilizzare il monitoraggio dei dispositivi geospaziali consiste nell'utilizzare l'applicazione starter [ ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://developer.ibm.com/streamsdev/docs/build-real-time-location-monitoring-application-ibm-cloud-geospatial-analytics-node-js/){:new_window}. Questa applicazione starter Node.js ti mostra come configurare e controllare il servizio {{site.data.keyword.geospatialshort_Geospatial}} attraverso la sua API REST. Puoi anche modificare il codice applicativo
 e ridistribuire le modifiche all'ambiente
 {{site.data.keyword.Bluemix_notm}}.

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-06-11"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-12-15"
 {:screen: .screen}
 {:pre: .pre}
 
-# FAQs
+# Perguntas mais frequentes
 {: #faq}
 
 ## Como posso me inscrever no serviço de Análise Geoespacial?

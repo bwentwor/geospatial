@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2017
+  years: 2015, 2018
 lastupdated: "2017-12-15"
 
 ---
@@ -24,7 +24,7 @@ Une modification simple consiste à augmenter ou retirer la limite d'événement
 
 1. Ouvrez app.js dans un éditeur de texte ou un environnement de développement.
 1. Modifiez la variable `eventTarget` ou supprimez la ligne suivante pour retirer entièrement la limite d'événements :
-<pre><code>var eventTarget = 100;</code></pre>
+	 <pre><code>var eventTarget = 100;</code></pre>
 1. Si vous voulez retirer la limite d'événements, vous devez aussi supprimer l'instruction if suivante :
 	 <pre><code>  
 	if (eventCount >= eventTarget) {

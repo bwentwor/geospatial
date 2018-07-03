@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-06-11"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2017-12-15"
 {: #starter_app}
 
 
-O {{site.data.keyword.geospatialshort_Geospatial}} inclui um aplicativo iniciador [ ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://developer.ibm.com/streamsdev/wp-content/uploads/sites/15/2017/09/geo-starter.zip) para você usar como um modelo para experimento e faz e envia por push mudanças para o ambiente do {{site.data.keyword.Bluemix_short}}.
+O {{site.data.keyword.geospatialshort_Geospatial}} inclui um [aplicativo iniciador ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de ícone")](https://developer.ibm.com/streamsdev/wp-content/uploads/sites/15/2018/06/geo-starter.zip) para você usar como modelo para experimento e fazer e enviar mudanças por push para o ambiente do {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
 O aplicativo iniciador usa mensagens de um broker do MQTT de demonstração para um conjunto simulado de
@@ -32,5 +32,4 @@ Um visualizador que está vinculado a partir dessa página da web monitora dispo
 
 
 É possível executar o aplicativo
-iniciador sem modificação. Se você quiser experimentar mais com o serviço, também será possível [modificar o código](/docs/services/geospatial/modifying_starter_app.html) e enviar por push as mudanças de volta para o ambiente do {{site.data.keyword.Bluemix_short}}. Veja [Monitorar dispositivos móveis com o serviço {{site.data.keyword.geospatialshort_Geospatial}}
-![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html) para obter detalhes sobre como executar e estender o aplicativo iniciador {{site.data.keyword.geospatialshort_Geospatial}}.
+iniciador sem modificação. Se desejar experimentar mais com o serviço, também é possível modificar o código e enviar por push as mudanças de volta ao ambiente do  {{site.data.keyword.Bluemix_short}}. Confira [Desenvolver um aplicativo de monitoramento de localização em tempo real no {{site.data.keyword.Bluemix_short}} com o {{site.data.keyword.geospatialshort_Geospatial}} e o Node.js ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://developer.ibm.com/streamsdev/docs/build-real-time-location-monitoring-application-ibm-cloud-geospatial-analytics-node-js/) para saber como executar e ampliar o aplicativo iniciador.

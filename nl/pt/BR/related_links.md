@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-06-11"
 
 ---
 
@@ -19,10 +19,9 @@ lastupdated: "2017-12-15"
 ## Tutoriais e amostras
 {: #samples notoc}
 
-* [Tutorial do aplicativo iniciador {{site.data.keyword.geospatialshort_Geospatial}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/developerworks/library/mo-monitordevices-app/index.html){:new_window}
-* [Tutoriais do {{site.data.keyword.geospatialshort_Geospatial}} no IBM developerWorks ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://www.ibm.com/developerworks/topics/geospatial%20analytics%20service){:new_window}
-* [Quem e Onde – Descubra com o {{site.data.keyword.geospatialshort_Geospatial}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://developer.ibm.com/bluemix/2014/12/17/find-bluemix-geospatial-analytics){:new_window}
-* [Detecção de hangout em tempo real com o {{site.data.keyword.streaminganalyticsshort}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://developer.ibm.com/bluemix/2016/05/27/real-time-hangout-detection/){:new_window}
+* [Tutorial do aplicativo iniciador {{site.data.keyword.geospatialshort_Geospatial}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://developer.ibm.com/streamsdev/docs/build-real-time-location-monitoring-application-ibm-cloud-geospatial-analytics-node-js/){:new_window}
+* [Preparar uma GUI para o {{site.data.keyword.geospatialshort_Geospatial}} com essa receita do Watson IoT ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/blogs/bluemix/2017/03/whip-gui-geospatial-analytics-watson-iot-recipe/){:new_window}
+* [Desenvolver um aplicativo IoT para carros conectados com o {{site.data.keyword.geospatialshort_Geospatial}}![Ícone de link externo]](https://www.ibm.com/developerworks/mobile/library/mo-connectedcar-app/index.html){:new_window}
 
 
 ## Referência da API
