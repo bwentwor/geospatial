@@ -21,13 +21,13 @@ lastupdated: "2018-06-11"
 
 * [{{site.data.keyword.geospatialshort_Geospatial}} starter application tutorial ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/streamsdev/docs/build-real-time-location-monitoring-application-ibm-cloud-geospatial-analytics-node-js/){:new_window}
 * [Whip up a GUI for {{site.data.keyword.geospatialshort_Geospatial}} with this Watson IoT Recipe ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2017/03/whip-gui-geospatial-analytics-watson-iot-recipe/){:new_window}
-* [Build a connected-car IoT app with {{site.data.keyword.geospatialshort_Geospatial}} ![External link icon]](https://www.ibm.com/developerworks/mobile/library/mo-connectedcar-app/index.html){:new_window}
+* [Build a connected-car IoT app with {{site.data.keyword.geospatialshort_Geospatial}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/developerworks/mobile/library/mo-connectedcar-app/index.html){:new_window}
 
 
 ## API Reference
 {: #api notoc}
 
-* [{{site.data.keyword.geospatialshort_Geospatial}} REST API ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/apidocs/246){:new_window}
+* [{{site.data.keyword.geospatialshort_Geospatial}} REST API ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/apidocs/geospatial-analytics){:new_window}
 
 ## Compatible Runtimes
 {: #buildpacks notoc}

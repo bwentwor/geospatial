@@ -21,7 +21,7 @@ You use the {{site.data.keyword.geospatialshort_Geospatial}} service to monitor 
 {:shortdesc}
 
 
-There are billions of connected devices in the Internet of Things, with forecasts predicting steep growth rates in coming years. That's a lot of objects to keep track of. Awareness of the location of devices on-the-move opens up a number of exciting new application opportunities.
+Billions of connected devices are in the Internet of Things, with forecasts that predict steep growth rates in coming years. That's many objects to track. Awareness of the location of devices on-the-move opens up a number of exciting new application opportunities.
 
 * Offering real-time promotions to customers who are near specific retail locations.
 * Alerting cars or other connected devices of regions to avoid, for example, where accidents or emergency situations occurred.

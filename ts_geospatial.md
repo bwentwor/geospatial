@@ -35,11 +35,11 @@ You stopped your application that uses {{site.data.keyword.geospatialshort_Geosp
 {: tsSymptoms}
 
 
-If you stop your application, your {{site.data.keyword.geospatialshort_Geospatial}} service instance will continue to run. The service continues to monitor regions until you stop the service, regardless of whether your app is running.
+If you stop your application, your {{site.data.keyword.geospatialshort_Geospatial}} service instance continues to run. The service continues to monitor regions until you stop the service, regardless of whether your app is running.
 {: tsCauses}
 
 
-Stop {{site.data.keyword.geospatialshort_Geospatial}} from the service administration dashboard. Or you can modify your app to stop the service using the REST API and then push your changes back to {{site.data.keyword.Bluemix_short}}.
+Stop {{site.data.keyword.geospatialshort_Geospatial}} from the service administration dashboard. Or you can modify your app to stop the service by using the REST API and then push your changes back to {{site.data.keyword.Bluemix_short}}.
 {: tsResolve}
 
 ##The service is monitoring regions I didn't specify in my app
@@ -47,15 +47,15 @@ Stop {{site.data.keyword.geospatialshort_Geospatial}} from the service administr
 
 
 
-If you have more than one applications bound to the same service instance, another application may have added these regions.
+If you bind more than one application to the same service instance, another application might add these regions.
 {:shortdesc}
 
 
 
-When you view your {{site.data.keyword.geospatialshort_Geospatial}} instance on the service administration dashboard, you see that it is monitoring more regions than you specified in one of your apps.
+When you view your {{site.data.keyword.geospatialshort_Geospatial}} instance on the service administration dashboard, you see that it is monitoring more regions than the ones you specified in one of your apps.
 {: tsSymptoms}
 
-A single instance of {{site.data.keyword.geospatialshort_Geospatial}} monitors the regions of all apps that are bound to it. This means that when you view your service administration dashboard, you will see information for the regions specified by all of your apps.
+A single instance of {{site.data.keyword.geospatialshort_Geospatial}} monitors the regions of all apps that are bound to it. This means that when you view your service administration dashboard, you see information for the regions that are specified by all of your apps.
 {: tsCauses}
 
 To stop {{site.data.keyword.geospatialshort_Geospatial}} from monitoring certain regions:
@@ -69,7 +69,7 @@ To stop {{site.data.keyword.geospatialshort_Geospatial}} from monitoring certain
 ##Troubleshooting from the service administration dashboard
 {: #dashboard}
 
-As you troubleshoot your application, you'll want to go to the service administration dashboard to check the status of your service instance. If it is not processing data, you might be able to fix the problem by stopping and restarting the service.
+As you troubleshoot your application, you want to go to the service administration dashboard to check the status of your service instance. If it is not processing data, you might be able to fix the problem by stopping and restarting the service.
 {:shortdesc}
 
 The status of your {{site.data.keyword.geospatialshort_Geospatial}} service instance is separate from the status of your application, and several applications can be bound to the same service instance.

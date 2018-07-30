@@ -30,7 +30,7 @@ lastupdated: "2018-06-11"
 
 ##MQTT events and configuring the service
 
-Your application subscribes to MQTT messages and controls {{site.data.keyword.geospatialshort_Geospatial}} through its [REST API ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/apidocs/246). The following actions are available through REST API calls:
+Your application subscribes to MQTT messages and controls {{site.data.keyword.geospatialshort_Geospatial}} through its [REST API ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/apidocs/geospatial-analytics). The following actions are available through REST API calls:
 
 * Configure and start the service.
 * Add and remove geographic regions to monitor.

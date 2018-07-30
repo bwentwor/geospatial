@@ -19,23 +19,23 @@ lastupdated: "2018-06-11"
 ## How do I sign up for Geospatial Analytics service?
 {: #signup notoc}
 
-For information about the {{site.data.keyword.geospatialshort_Geospatial}} service plans, see the [{{site.data.keyword.Bluemix_short}} catalog page](https://console.ng.bluemix.net/catalog/services/geospatial-analytics).
+To learn about the {{site.data.keyword.geospatialshort_Geospatial}} service plans, see the [{{site.data.keyword.Bluemix_short}} catalog page](https://console.ng.bluemix.net/catalog/services/geospatial-analytics).
 
 ## What version of Geospatial Analytics service am I using?
 {: #version notoc}
 
-Improvements are pushed regularly to all {{site.data.keyword.geospatialshort_Geospatial}} services. You always use the latest version of the managed service, and there is no product version or level for you to keep track of.
+Improvements are pushed regularly to all {{site.data.keyword.geospatialshort_Geospatial}} services. You always use the latest version of the managed service, and you do not track any product version or level.
 
 ## What does IBM manage for me?
 {: #ibm_manage notoc}
 
-We handle installation, software upgrades, creating and managing domains, and hardware maintenance. The service includes 24 x 7 health monitoring.
+IBM handles installation, software upgrades, creating and managing domains, and hardware maintenance. The service includes 24 x 7 health monitoring.
 
 
 ## What tasks am I responsible for?
 {: #responsible notoc}
 
-You write the applications that will run in a {{site.data.keyword.geospatialshort_Geospatial}} service and Streams instance on-prem and ensure that they are functioning correctly and meeting performance requirements. You are also responsible for any application-specific monitoring.
+You write the applications that run in a {{site.data.keyword.geospatialshort_Geospatial}} service and Streams instance on-prem and ensure that they are functioning correctly and meeting performance requirements. You are also responsible for any application-specific monitoring.
 
 
 ## Do I need to configure a Geospatial Analytics service?
