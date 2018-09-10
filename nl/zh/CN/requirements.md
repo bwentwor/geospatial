@@ -30,7 +30,7 @@ lastupdated: "2018-06-11"
 
 ##MQTT 事件和配置服务
 
-您的应用程序预订 MQTT 消息并通过其 [REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.ng.bluemix.net/apidocs/246) 控制 {{site.data.keyword.geospatialshort_Geospatial}}。可以通过 REST API 调用执行以下操作：
+您的应用程序预订 MQTT 消息并通过其 [REST API ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.bluemix.net/apidocs/geospatial-analytics) 控制 {{site.data.keyword.geospatialshort_Geospatial}}。可以通过 REST API 调用执行以下操作：
 
 * 配置和启动服务。
 * 添加和除去要监视的地理区域。

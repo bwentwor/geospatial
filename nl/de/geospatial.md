@@ -21,7 +21,7 @@ Mithilfe des {{site.data.keyword.geospatialshort_Geospatial}}-Service überwache
 {:shortdesc}
 
 
-Im Internet der Dinge gibt es Milliarden an verbundenen Geräten und für die nächsten Jahre werden noch enorme Zuwachsraten vorhergesagt. Bei dieser riesigen Menge an Objekten wird es schwierig, den Überblick zu behalten. Eine Anwesenheitsanzeige für die Position der in Bewegung befindlichen Geräte eröffnet eine Vielzahl sehr interessanter Anwendungsmöglichkeiten.
+Im Internet der Dinge gibt es Milliarden an verbundenen Geräten und für die nächsten Jahre werden noch enorme Zuwachsraten vorhergesagt. Die Anzahl an Objekten, die überwacht werden können, ist also gewaltig. Eine Anwesenheitsanzeige für die Position der in Bewegung befindlichen Geräte eröffnet eine Vielzahl sehr interessanter Anwendungsmöglichkeiten.
 
 * Anbieten von Echtzeitwerbeaktionen für Kunden, die sich in der Nähe einer bestimmten Einzelhandelslokation befinden.
 * Warnen von Autos oder anderen verbundenen Geräten vor Regionen, die aufgrund von Unfällen oder anderen Notfallsituationen gemieden werden sollten.

@@ -19,17 +19,17 @@ lastupdated: "2018-06-11"
 ## 如何注册 Geospatial Analytics 服务？
 {: #signup notoc}
 
-有关 {{site.data.keyword.geospatialshort_Geospatial}} 服务套餐的信息，请参阅 [{{site.data.keyword.Bluemix_short}} 目录页面](https://console.ng.bluemix.net/catalog/services/geospatial-analytics)。
+要了解有关 {{site.data.keyword.geospatialshort_Geospatial}} 服务套餐的信息，请参阅 [{{site.data.keyword.Bluemix_short}} 目录页面](https://console.ng.bluemix.net/catalog/services/geospatial-analytics)。
 
 ## 我使用的是哪个版本的 Geospatial Analytics 服务？
 {: #version notoc}
 
-所有 {{site.data.keyword.geospatialshort_Geospatial}} 服务都会定期改进。您始终会使用最新版本的受管服务，您无需跟踪产品版本或级别。
+所有 {{site.data.keyword.geospatialshort_Geospatial}} 服务都会定期改进。您始终都会使用最新版本的受管服务，无需跟踪产品版本或级别。
 
 ## IBM 会为我做什么？
 {: #ibm_manage notoc}
 
-我们处理安装、软件升级、创建和管理域，以及硬件维护。服务包括 24 x 7 运行状况监视器。
+IBM 会处理安装、软件升级、创建和管理域，以及硬件维护。服务包括 24 x 7 运行状况监视器。
 
 
 ## 我负责做什么工作？

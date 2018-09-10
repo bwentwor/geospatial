@@ -15,9 +15,9 @@ Geospatial Analytics
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    related_links.md
+related_links.md
     vcap_services.md
-    [REST API 参考](https://console.ng.bluemix.net/apidocs/246)
+    [REST API 参考](https://console.bluemix.net/apidocs/geospatial-analytics)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}

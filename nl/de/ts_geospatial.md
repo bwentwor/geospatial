@@ -47,7 +47,7 @@ Stoppen Sie {{site.data.keyword.geospatialshort_Geospatial}} im Dashboard für d
 
 
 
-Wenn Sie mehrere Anwendungen an dieselbe Serviceinstanz gebunden haben, können diese Regionen von einer anderen Anwendung hinzugefügt worden sein.
+Wenn Sie mehrere Anwendungen an dieselbe Serviceinstanz binden, können diese Regionen von einer anderen Anwendung hinzugefügt werden.
 {:shortdesc}
 
 
@@ -69,7 +69,7 @@ Gehen Sie wie folgt vor, um das Überwachen bestimmter Regionen durch {{site.dat
 ##Fehlerbehebung im Dashboard für Serviceadministration
 {: #dashboard}
 
-Wenn Sie Fehler für eine Anwendung beheben, möchten Sie wahrscheinlich das Dashboard für Serviceadministration aufrufen, um dort den Status der Serviceinstanz zu überprüfen. Wenn dort keine Daten verarbeitet werden, kann das Problem unter Umständen durch das Stoppen und erneute Starten des Service behoben werden.
+Wenn Sie Fehler für eine Anwendung beheben, können Sie das Dashboard für Serviceadministration aufrufen, um dort den Status der Serviceinstanz zu überprüfen. Wenn dort keine Daten verarbeitet werden, kann das Problem unter Umständen durch das Stoppen und erneute Starten des Service behoben werden.
 {:shortdesc}
 
 Der Status Ihrer {{site.data.keyword.geospatialshort_Geospatial}}-Serviceinstanz wird getrennt vom Status Ihrer Anwendung angezeigt, aber mehrere Anwendungen können an dieselbe Serviceinstanz gebunden sein.

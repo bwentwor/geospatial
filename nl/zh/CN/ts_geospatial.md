@@ -35,7 +35,7 @@ lastupdated: "2018-06-11"
 {: tsSymptoms}
 
 
-即使停止应用程序，{{site.data.keyword.geospatialshort_Geospatial}} 服务实例也将继续运行。不管应用程序是否在运行，该服务将继续监视区域，直到您停止服务为止。
+即使停止应用程序，{{site.data.keyword.geospatialshort_Geospatial}} 服务实例也会继续运行。不管应用程序是否在运行，该服务将继续监视区域，直到您停止服务为止。
 {: tsCauses}
 
 
@@ -47,15 +47,15 @@ lastupdated: "2018-06-11"
 
 
 
-如果您有多个应用程序绑定到同一服务实例，那么另一个应用程序可能已添加这些区域。
+如果有多个应用程序绑定到同一服务实例，那么另一个应用程序可能会添加这些区域。
 {:shortdesc}
 
 
 
-在服务管理仪表板上查看 {{site.data.keyword.geospatialshort_Geospatial}} 实例时，您会看到该实例监视的区域比您在其中一个应用程序中指定的多。
+在服务管理仪表板上查看 {{site.data.keyword.geospatialshort_Geospatial}} 实例时，您会看到该实例监视的区域比您在其中一个应用程序中指定的要多。
 {: tsSymptoms}
 
-{{site.data.keyword.geospatialshort_Geospatial}} 的单个实例会监视绑定到该实例的所有应用程序的区域。这意味着查看服务管理仪表板时，您将看到所有应用程序指定的区域的信息。
+{{site.data.keyword.geospatialshort_Geospatial}} 的单个实例会监视绑定到该实例的所有应用程序的区域。这意味着在查看服务管理仪表板时，您将看到所有应用程序指定的区域的信息。
 {: tsCauses}
 
 要停止 {{site.data.keyword.geospatialshort_Geospatial}} 监视特定区域：
@@ -69,7 +69,7 @@ lastupdated: "2018-06-11"
 ##从服务管理仪表板进行故障诊断
 {: #dashboard}
 
-当您对应用程序进行故障诊断时，可能想要转至服务管理仪表板来检查服务实例的状态。如果服务未在处理数据，那么您可能能够通过停止并重新启动服务来解决该问题。
+在对应用程序进行故障诊断时，您可能想要转至服务管理仪表板来检查服务实例的状态。如果服务未在处理数据，那么您可能能够通过停止并重新启动服务来解决该问题。
 {:shortdesc}
 
 {{site.data.keyword.geospatialshort_Geospatial}} 服务实例的状态与应用程序的状态是分开的，并且多个应用程序可以绑定到同一服务实例。

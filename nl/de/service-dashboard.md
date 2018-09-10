@@ -13,7 +13,7 @@ lastupdated: "2018-06-11"
 {:screen: .screen}
 {:pre: .pre}
 
-#Dashboard für Serviceadministration
+#Service-Dashboard verwenden
 {: #service-dashboard}
 
 
@@ -24,4 +24,4 @@ Im Dashboard für Serviceadministration können Sie den Status einer {{site.data
 
 Mit {{site.data.keyword.geospatialshort_Geospatial}} werden Geräte überwacht, während diese aktiv sind, und zwar mittels Internet of Things. Jedes überwachte Gerät sendet Gerätenachrichten mit einer eindeutigen ID sowie seiner aktuellen Position, die aus Breitengrad und Längengrad besteht. Die Geräteposition wird mit den Koordinaten der einzelnen definierten geografischen Regionen abgeglichen. Der Service produziert dann Ereignisse, sobald Geräte in eine bestimmte Region eintreten (Entry-Ereignis), aus einer bestimmten Region austreten (Exit-Ereignis) oder sich in einer bestimmten Region aufhalten (Hangout-Ereignis).
 
-Eine Regionsüberprüfung wird als Einheit zum Messen der Nutzung von {{site.data.keyword.geospatialshort_Geospatial}} verwendet. Für jede Gerätenachricht wird eine einzige Regionsüberprüfung durchgeführt, wenn für die Region die Entry- und/oder die Exit-Erkennung angegeben ist. Für jede Gerätenachricht wird eine einzige Regionsüberprüfung durchgeführt, wenn für die Region die Aufenthaltserkennung angegeben ist. Sind keine Regionen definiert, wird für jede Gerätenachricht eine einzige Regionsüberprüfung gezählt, wie wenn es 1 Region gäbe. Dies bedeutet, dass wenn Sie eine Überprüfung für 100 Regionen definiert haben (Entry, Exit und Hangout), eine einzige Gerätenachricht 200 Regionsüberprüfungen produzieren würde.
+Eine Regionsüberprüfung wird als Einheit zum Messen der Nutzung von {{site.data.keyword.geospatialshort_Geospatial}} verwendet. Für jede Gerätenachricht wird eine einzige Regionsüberprüfung durchgeführt, wenn für die Region die Entry- und/oder die Exit-Erkennung angegeben ist. Für jede Gerätenachricht wird eine einzige Regionsüberprüfung durchgeführt, wenn für die Region die Aufenthaltserkennung angegeben ist. Sind keine Regionen definiert, wird für jede Gerätenachricht eine einzelne Regionsüberprüfung als einzelne Region gezählt. Wenn Sie eine Überprüfung für 100 Regionen definiert haben (Entry, Exit und Hangout), würde eine einzelne Gerätenachricht 200 Regionsüberprüfungen produzieren.

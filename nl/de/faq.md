@@ -24,12 +24,12 @@ Informationen zu den {{site.data.keyword.geospatialshort_Geospatial}}-Servicepl�
 ## Welche Version des Geospatial Analytics-Service verwende ich?
 {: #version notoc}
 
-Verbesserungen werden in regelmäßigen Abständen an alle {{site.data.keyword.geospatialshort_Geospatial}}-Services per Push-Operation übertragen. Sie verwenden stets die neueste Version des verwalteten Service und es gibt keine Produktversion und keinen Produktänderungsstand, die bzw. den Sie im Auge behalten müssen.
+Verbesserungen werden in regelmäßigen Abständen an alle {{site.data.keyword.geospatialshort_Geospatial}}-Services per Push-Operation übertragen. Sie verwenden stets die neueste Version des verwalteten Service und müssen keine Produktversion und keinen Produktänderungsstand im Auge behalten.
 
 ## Welche Verwaltungsaufgaben übernimmt IBM?
 {: #ibm_manage notoc}
 
-Die Installation, Software-Upgrades, das Erstellen und Verwalten von Domänen sowie die Hardwarewartung werden übernommen. Der Service umfasst eine Statusüberwachung rund um die Uhr.
+Die Installation, Software-Upgrades, das Erstellen und Verwalten von Domänen sowie die Hardwarewartung werden von IBM übernommen. Der Service umfasst eine Statusüberwachung rund um die Uhr.
 
 
 ## Für welche Aufgaben bin ich zuständig?

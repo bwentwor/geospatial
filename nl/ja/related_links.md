@@ -21,13 +21,13 @@ lastupdated: "2018-06-11"
 
 * [{{site.data.keyword.geospatialshort_Geospatial}} スターター・アプリケーションのチュートリアル (英語) ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://developer.ibm.com/streamsdev/docs/build-real-time-location-monitoring-application-ibm-cloud-geospatial-analytics-node-js/){:new_window}
 * [この Watson IoT レシピを使用した、{{site.data.keyword.geospatialshort_Geospatial}} の GUI の作成 (英語) ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/blogs/bluemix/2017/03/whip-gui-geospatial-analytics-watson-iot-recipe/){:new_window}
-* [{{site.data.keyword.geospatialshort_Geospatial}} を使用した、connected-car IoT アプリのビルド (英語) ![外部リンク・アイコン]](https://www.ibm.com/developerworks/mobile/library/mo-connectedcar-app/index.html){:new_window}
+* [{{site.data.keyword.geospatialshort_Geospatial}} を使用した、connected-car IoT アプリのビルド (英語) ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/developerworks/mobile/library/mo-connectedcar-app/index.html){:new_window}
 
 
 ## API リファレンス
 {: #api notoc}
 
-* [{{site.data.keyword.geospatialshort_Geospatial}} REST API ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.ng.bluemix.net/apidocs/246){:new_window}
+* [{{site.data.keyword.geospatialshort_Geospatial}} REST API ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.bluemix.net/apidocs/geospatial-analytics){:new_window}
 
 ## 互換性のあるランタイム
 {: #buildpacks notoc}
