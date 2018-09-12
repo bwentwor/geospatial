@@ -31,7 +31,7 @@ tópicos do MQTT.
 
 ##Eventos MQTT e configurando o serviço
 
-Seu aplicativo assina mensagens MQTT e controla o {{site.data.keyword.geospatialshort_Geospatial}} por meio da API de REST do [ ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.ng.bluemix.net/apidocs/246). As
+Seu aplicativo assina mensagens MQTT e controla o {{site.data.keyword.geospatialshort_Geospatial}} por meio de sua [API de REST ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.bluemix.net/apidocs/geospatial-analytics). As
 ações a seguir estão disponíveis através de chamadas API REST:
 
 * Configurar e iniciar o serviço.

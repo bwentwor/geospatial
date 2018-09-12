@@ -47,7 +47,7 @@ lastupdated: "2018-06-11"
 
 
 
-如果您有多個應用程式連結至相同的服務實例，則另一個應用程式可能已新增這些地區。
+如果您將多個應用程式連結至相同的服務實例，則另一個應用程式可能新增這些地區。
 {:shortdesc}
 
 
@@ -55,7 +55,7 @@ lastupdated: "2018-06-11"
 當您在服務管理儀表板上檢視 {{site.data.keyword.geospatialshort_Geospatial}} 實例時，您看到它正在監視的地區比其中一個應用程式中所指定地區還要多。
 {: tsSymptoms}
 
-{{site.data.keyword.geospatialshort_Geospatial}} 的單一實例會監視連結到它的所有應用程式的地區。這表示，當您檢視服務管理儀表板時，將看到所有應用程式所指定之地區的資訊。
+{{site.data.keyword.geospatialshort_Geospatial}} 的單一實例會監視連結到它的所有應用程式的地區。這表示，當您檢視服務管理儀表板時，會看到所有應用程式所指定之地區的資訊。
 {: tsCauses}
 
 若要停止 {{site.data.keyword.geospatialshort_Geospatial}} 不再監視特定地區，請執行下列動作：

@@ -27,9 +27,7 @@ si spegne.
 {:shortdesc}
 
 
-Ci sono miliardi di dispositivi connessi nell'Internet delle cose,
-con previsioni che predicono ripidi ritmi di crescita per gli anni
-avvenire. Sono molti gli oggetti di cui tenere traccia. La conoscenza
+Nella IoT (Internet of Things) cose ci sono miliardi di dispositivi connessi e le previsioni parlano di tassi di crescita vertiginosi, negli anni avvenire. Parliamo di molti oggetti da tracciare. La conoscenza
 della posizione dei dispositivi in movimento apre una serie di nuove e
 interessanti opportunità applicative.
 

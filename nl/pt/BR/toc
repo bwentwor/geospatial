@@ -17,7 +17,7 @@ Geospatial Analytics
     {: .navgroup id="reference"}
     related_links.md
     vcap_services.md
-    [Referência de API de REST](https://console.ng.bluemix.net/apidocs/246)
+    [Referência de API de REST](https://console.bluemix.net/apidocs/geospatial-analytics)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}

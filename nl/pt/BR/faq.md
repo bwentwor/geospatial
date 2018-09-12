@@ -19,24 +19,23 @@ lastupdated: "2018-06-11"
 ## Como posso me inscrever no serviço de Análise Geoespacial?
 {: #signup notoc}
 
-Para obter informações sobre os planos de serviços do {{site.data.keyword.geospatialshort_Geospatial}}, consulte a [ página de catálogo do {{site.data.keyword.Bluemix_short}}](https://console.ng.bluemix.net/catalog/services/geospatial-analytics).
+Para aprender sobre os planos de serviço do {{site.data.keyword.geospatialshort_Geospatial}}, consulte a [Página de catálogo do {{site.data.keyword.Bluemix_short}}](https://console.ng.bluemix.net/catalog/services/geospatial-analytics).
 
 ## Qual versão do serviço de Análise Geoespacial estou usando?
 {: #version notoc}
 
-Melhorias são enviadas por push regularmente para todos os serviços do {{site.data.keyword.geospatialshort_Geospatial}}. Você sempre usa a versão mais recente do serviço gerenciado, e não há versão do produto ou nível para você acompanhar.
+Melhorias são enviadas por push regularmente para todos os serviços do {{site.data.keyword.geospatialshort_Geospatial}}. Você sempre usa a versão mais recente do serviço gerenciado e não rastreia nenhuma versão ou nível do produto.
 
 ## O que a IBM gerencia para mim?
 {: #ibm_manage notoc}
 
-Não lidamos com instalação, upgrades de software, criação e
-gerenciamento de domínios e manutenção de hardware. O serviço inclui monitoramento 24X7.
+A IBM manipula a instalação, os upgrades de software, a criação e o gerenciamento de domínios e a manutenção de hardware. O serviço inclui monitoramento 24X7.
 
 
 ## Sou responsável por quais tarefas?
 {: #responsible notoc}
 
-Você escreve os aplicativos que serão executados em um serviço {{site.data.keyword.geospatialshort_Geospatial}} e uma instância do Streams no local e garante que eles estejam funcionando corretamente e atendam aos requisitos de desempenho. Você também é responsável por qualquer monitoramento do aplicativo.
+Você grava os aplicativos que são executados em um serviço do {{site.data.keyword.geospatialshort_Geospatial}}, transmite a instância no local, assegura que estejam funcionando corretamente e que atendam aos requisitos de desempenho. Você também é responsável por qualquer monitoramento do aplicativo.
 
 
 ## Preciso configurar um serviço de Análise Geoespacial?

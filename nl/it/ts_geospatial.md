@@ -37,12 +37,12 @@ tua applicazione.
 {: tsSymptoms}
 
 
-Se arresti la tua applicazione, l'istanza del servizio {{site.data.keyword.geospatialshort_Geospatial}} continuerà l'esecuzione. Il servizio continua a monitorare le regioni finché non lo arresti, indipendentemente dal fatto che la tua
+Se arresti la tua applicazione, la tua istanza del servizio {{site.data.keyword.geospatialshort_Geospatial}} continua l'esecuzione. Il servizio continua a monitorare le regioni finché non lo arresti, indipendentemente dal fatto che la tua
 applicazione sia in esecuzione.
 {: tsCauses}
 
 
-Arresta {{site.data.keyword.geospatialshort_Geospatial}} dal dashboard di gestione del servizio. In alternativa, puoi modificare la tua applicazione per arrestare il servizio utilizzando l'API REST ed inserendo quindi nuovamente le modifiche in {{site.data.keyword.Bluemix_short}}.
+Arresta {{site.data.keyword.geospatialshort_Geospatial}} dal dashboard di gestione del servizio. In alternativa, puoi modificare la tua applicazione per arrestare il servizio utilizzando l'API REST ed eseguendo quindi nuovamente il push delle modifiche in {{site.data.keyword.Bluemix_short}}.
 {: tsResolve}
 
 ##Il servizio sta monitorando delle regioni che non ho specificato nella mia applicazione
@@ -50,7 +50,7 @@ Arresta {{site.data.keyword.geospatialshort_Geospatial}} dal dashboard di gestio
 
 
 
-Se hai più di un'applicazione associata alla stessa istanza del servizio, è possibile che un'altra applicazione abbia aggiunto queste regioni.
+Se esegui il bind di più di un'applicazione alla stessa istanza del servizio, un'altra applicazione potrebbe aggiungere tali regioni.
 {:shortdesc}
 
 
@@ -58,7 +58,7 @@ Se hai più di un'applicazione associata alla stessa istanza del servizio, è po
 Quando visualizzi la tua istanza di {{site.data.keyword.geospatialshort_Geospatial}} sul dashboard di gestione del servizio, vedi che sta monitorando più regioni di quante tu ne abbia specificate in una delle tue applicazioni.
 {: tsSymptoms}
 
-Una singola istanza di {{site.data.keyword.geospatialshort_Geospatial}} monitora le regioni di tutte le applicazioni ad essa associate. Questo significa che, quando visualizzi il tuo dashboard di gestione del servizio, vedrai informazioni per le regioni specificate da tutte le tue applicazioni.
+Una singola istanza di {{site.data.keyword.geospatialshort_Geospatial}} monitora le regioni di tutte le applicazioni ad essa associate. Questo significa che, quando visualizzi il tuo dashboard di gestione del servizio, vedi informazioni per le regioni specificate da tutte le tue applicazioni.
 {: tsCauses}
 
 Per fare in modo che {{site.data.keyword.geospatialshort_Geospatial}} non monitori più delle specifiche regioni:
@@ -72,9 +72,7 @@ Per fare in modo che {{site.data.keyword.geospatialshort_Geospatial}} non monito
 ##Risoluzione dei problemi dal dashboard di gestione del servizio
 {: #dashboard}
 
-Quando risolvi i problemi relativi alla tua applicazione, puoi passare al
-dashboard di gestione del servizio per controllare lo stato
-della tua istanza del servizio. Se non vi sono dei dati in elaborazione, puoi
+Man mano che risolvi i problemi relativi alla tua applicazione, vai al dashboard di gestione del servizio per controllare lo stato della tua istanza del servizio. Se non vi sono dei dati in elaborazione, puoi
   riuscire a correggere il problema arrestando e riavviando il
 servizio.
 {:shortdesc}

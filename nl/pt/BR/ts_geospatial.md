@@ -35,13 +35,12 @@ Você parou o aplicativo que usa o {{site.data.keyword.geospatialshort_Geospatia
 {: tsSymptoms}
 
 
-Se você parar seu aplicativo, a instância de serviço do {{site.data.keyword.geospatialshort_Geospatial}} continuará a ser executada. O serviço continua a monitorar regiões até que você pare o serviço, independentemente se o app está ou não em execução.
+Se você parar seu aplicativo, sua instância de serviço do {{site.data.keyword.geospatialshort_Geospatial}} continuará a ser executada. O serviço continua a monitorar regiões até que você pare o serviço, independentemente se o app está ou não em execução.
 {: tsCauses}
 
 
 Pare o {{site.data.keyword.geospatialshort_Geospatial}} no painel de
-administração de serviços. Ou você pode modificar seu app para parar o serviço usando a API REST e, em seguida, enviar por
-push suas alterações novamente para o {{site.data.keyword.Bluemix_short}}.
+administração de serviços. Ou será possível modificar seu app para parar o serviço usando a API de REST e, em seguida, enviar por push suas mudanças de volta para o {{site.data.keyword.Bluemix_short}}.
 {: tsResolve}
 
 ##O serviço está monitorando regiões que não especifiquei em meu app
@@ -49,18 +48,15 @@ push suas alterações novamente para o {{site.data.keyword.Bluemix_short}}.
 
 
 
-Se você tiver mais de um aplicativo ligado à mesma instância de serviço, outro
-aplicativo poderá ter incluído essas regiões.
+Se você ligar mais de um aplicativo à mesma instância de serviço, outro aplicativo poderá incluir essas regiões.
 {:shortdesc}
 
 
 
-Quando você visualiza a instância do {{site.data.keyword.geospatialshort_Geospatial}} no painel de administração de serviços, vê que ela está monitorando mais regiões do
-que as especificadas em um de seus apps.
+Ao visualizar sua instância do {{site.data.keyword.geospatialshort_Geospatial}} no painel de administração de serviço, você vê que ela está monitorando mais regiões que as especificadas em um de seus apps.
 {: tsSymptoms}
 
-Uma única instância do {{site.data.keyword.geospatialshort_Geospatial}} monitora as regiões de todos os apps que estão ligados a ela. Isso significa que quando você visualiza o painel de
-administração de serviços, verá informações das regiões especificadas por todos os seus apps.
+Uma única instância do {{site.data.keyword.geospatialshort_Geospatial}} monitora as regiões de todos os apps que estão ligados a ela. Isso significa que, ao visualizar seu painel de administração de serviço, você vê informações para as regiões que são especificadas por todos os seus apps.
 {: tsCauses}
 
 Para parar o {{site.data.keyword.geospatialshort_Geospatial}}
@@ -75,9 +71,7 @@ de monitorar determinadas regiões:
 ##Resolução de problemas do painel de administração de serviços
 {: #dashboard}
 
-À medida que você resolve problemas do seu aplicativo, você desejará acessar o painel
-de administração de serviços para verificar o status
-de sua instância de serviço. Se ele não estiver processando dados, talvez você possa
+Enquanto você resolve problemas do seu aplicativo, você quer acessar o painel de administração de serviço para verificar o status de sua instância de serviço. Se ele não estiver processando dados, talvez você possa
 corrigir o problema parando e reiniciando o serviço.
 {:shortdesc}
 

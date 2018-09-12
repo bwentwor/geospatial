@@ -28,8 +28,7 @@ Hangout). Depois de
 {:shortdesc}
 
 
-Há bilhões de dispositivos conectados ao Internet of Things, com previsão de taxas de crescimento
-            acentuadas nos próximos anos. Há vários objetos para acompanhar. A consciência da localização de dispositivos em movimento abre uma série de empolgantes novas oportunidades de
+Bilhões de dispositivos conectados estão na Internet of Things, que prevê taxas de crescimento elevadas nos próximos anos. São muitos objetos para rastrear. A consciência da localização de dispositivos em movimento abre uma série de empolgantes novas oportunidades de
             aplicativos.
 
 * Oferecer promoções em tempo real para clientes que estejam próximos a locais de varejo

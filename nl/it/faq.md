@@ -19,23 +19,23 @@ lastupdated: "2018-06-11"
 ## Come mi registro per il servizio Geospatial Analytics?
 {: #signup notoc}
 
-Per informazioni sui piani di servizio {{site.data.keyword.geospatialshort_Geospatial}}, consulta la [pagina del catalogo {{site.data.keyword.Bluemix_short}}](https://console.ng.bluemix.net/catalog/services/geospatial-analytics).
+Per saperne di più sui piani di servizio {{site.data.keyword.geospatialshort_Geospatial}}, consulta la [pagina del catalogo {{site.data.keyword.Bluemix_short}}](https://console.ng.bluemix.net/catalog/services/geospatial-analytics).
 
 ## Quale versione del servizio Geospatial Analytics sto utilizzando?
 {: #version notoc}
 
-Dei miglioramenti vengono distribuiti regolarmente a tutti i servizi {{site.data.keyword.geospatialshort_Geospatial}}. Utilizzi sempre la versione più recente del servizio gestito e non c'è alcuna versione o alcun livello del prodotto di cui tenere traccia.
+Dei miglioramenti vengono distribuiti regolarmente a tutti i servizi {{site.data.keyword.geospatialshort_Geospatial}}. Utilizzi sempre la versione più recente del servizio gestito, così non tracci alcuna versione o alcun livello del prodotto.
 
 ## Cosa gestisce IBM per mio conto?
 {: #ibm_manage notoc}
 
-Gestiamo l'installazione, gli upgrade software, la creazione e la gestione domini e la manutenzione hardware. Il servizio include un monitoraggio dello stato 24 ore su 24, 7 giorni su 7.
+IBM gestisce l'installazione, gli upgrade software, la creazione e la gestione di domini e la manutenzione hardware. Il servizio include un monitoraggio dello stato 24 ore su 24, 7 giorni su 7.
 
 
 ## Di quali attività sono io responsabile?
 {: #responsible notoc}
 
-Tu scrivi le applicazioni che verranno eseguite in un servizio {{site.data.keyword.geospatialshort_Geospatial}} e in un'istanza Streams in loco e garantisci che stiano funzionando correttamente e soddisfacendo i requisiti di prestazioni. Sei anche responsabile dell'eventuale monitoraggio specifico per un'applicazione.
+Tu scrivi le applicazioni che vengono eseguite in un servizio {{site.data.keyword.geospatialshort_Geospatial}} e in un'istanza Streams in loco e ti assicuri che stiano funzionando correttamente e soddisfacendo i requisiti di prestazioni. Sei anche responsabile dell'eventuale monitoraggio specifico per un'applicazione.
 
 
 ## Devo configurare un servizio Geospatial Analytics?

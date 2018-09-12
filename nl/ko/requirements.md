@@ -30,7 +30,7 @@ lastupdated: "2018-06-11"
 
 ##MQTT 이벤트 및 서비스 구성
 
-애플리케이션은 [REST API ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.ng.bluemix.net/apidocs/246)를 통해 MQTT 메시지를 구독하고 {{site.data.keyword.geospatialshort_Geospatial}}을 제어합니다. REST API 호출을 통해 다음 조치를 수행할 수 있습니다.
+애플리케이션은 [REST API ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.bluemix.net/apidocs/geospatial-analytics)를 통해 MQTT 메시지를 구독하고 {{site.data.keyword.geospatialshort_Geospatial}}을 제어합니다. REST API 호출을 통해 다음 조치를 수행할 수 있습니다.
 
 * 서비스를 구성하고 시작합니다.
 * 모니터링할 지리적 지역을 추가하고 제거합니다.

@@ -36,7 +36,7 @@ insieme di dispositivi.
 
 ##Eventi MQTT e configurazione del servizio
 
-La tua applicazione sottoscrive i messaggi MQTT e controlla {{site.data.keyword.geospatialshort_Geospatial}} attraverso la sua [API REST ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.ng.bluemix.net/apidocs/246). Mediante le chiamate dell'API REST,
+La tua applicazione sottoscrive i messaggi MQTT e controlla {{site.data.keyword.geospatialshort_Geospatial}} attraverso la sua [API REST ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.bluemix.net/apidocs/geospatial-analytics). Mediante le chiamate dell'API REST,
 sono disponibili le seguenti azioni:
 
 * Configurare e avviare il servizio.
