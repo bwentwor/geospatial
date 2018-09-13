@@ -21,10 +21,10 @@ Vous utilisez le service {{site.data.keyword.geospatialshort_Geospatial}} pour s
 {:shortdesc}
 
 
-Des milliards de périphériques sont connectés à Internet of Things, et leur nombre devrait augmenter de manière spectaculaire dans les années qui viennent. Cela représente un grand nombre d'objets dont il faut assurer le suivi. La connaissance de l'emplacement des périphériques en mouvement ouvre la porte à de nombreuses opportunités d'application nouvelles et intéressantes.
+Des milliards de périphériques sont connectés à Internet of Things, et leur nombre devrait augmenter de manière spectaculaire dans les années qui viennent. Cela constitue un grand nombre d'objets à contrôler. La connaissance de l'emplacement des périphériques en mouvement ouvre la porte à de nombreuses opportunités d'application nouvelles et intéressantes.
 
 * Proposer des promotions en temps réel à des clients se trouvant à proximité d'un local commercial.
 * Alerter les voitures ou d'autres périphériques connectés sur les régions à éviter en raison, par exemple, d'accidents ou de situations d'urgence.
 
 
-Le moyen le plus simple de s'initier à la surveillance de périphérique géospatial est d'utiliser l'[application de démarrage ![Icône de lien externe icon](../../icons/launch-glyph.svg "Icône de lien externe icon")](https://developer.ibm.com/streamsdev/docs/build-real-time-location-monitoring-application-ibm-cloud-geospatial-analytics-node-js/){:new_window}. Cette application de démarrage Node.js explique comment configurer et contrôler le service {{site.data.keyword.geospatialshort_Geospatial}} via son API REST. Vous pouvez également modifier le code d'application et renvoyer vos modifications dans l'environnement {{site.data.keyword.Bluemix_notm}}.
+Le moyen le plus simple de s'initier à la surveillance de périphérique géospatial est d'utiliser l'[application de démarrage ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://developer.ibm.com/streamsdev/docs/build-real-time-location-monitoring-application-ibm-cloud-geospatial-analytics-node-js/){:new_window}. Cette application de démarrage Node.js explique comment configurer et contrôler le service {{site.data.keyword.geospatialshort_Geospatial}} via son API REST. Vous pouvez également modifier le code d'application et renvoyer vos modifications dans l'environnement {{site.data.keyword.Bluemix_notm}}.

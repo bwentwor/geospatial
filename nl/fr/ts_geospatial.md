@@ -35,11 +35,11 @@ Vous avez arrêté votre application qui utilise {{site.data.keyword.geospatials
 {: tsSymptoms}
 
 
-Si vous arrêtez votre application, votre instance de service {{site.data.keyword.geospatialshort_Geospatial}} continue de s'exécuter. Le service continue de surveiller les régions jusqu'à ce que vous l'arrêtiez, que votre application soit en cours d'exécution ou non.
+Si vous arrêtez votre application, votre instance de service {{site.data.keyword.geospatialshort_Geospatial}} continue à s'exécuter. Le service continue à surveiller les régions jusqu'à ce que vous l'arrêtiez, que votre application soit en cours d'exécution ou non.
 {: tsCauses}
 
 
-Arrêtez {{site.data.keyword.geospatialshort_Geospatial}} depuis le tableau de bord d'administration du service. Ou bien, modifiez votre appli pour arrêter le service avec l'API REST, puis envoyez vos modifications par commande push à {{site.data.keyword.Bluemix_short}}.
+Arrêtez {{site.data.keyword.geospatialshort_Geospatial}} depuis le tableau de bord d'administration du service. Ou bien, modifiez votre application pour arrêter le service à l'aide de l'API REST, puis envoyez vos modifications par commande push à {{site.data.keyword.Bluemix_short}}.
 {: tsResolve}
 
 ##Le service surveille des régions que je n'ai pas spécifiées dans mon appli
@@ -47,7 +47,7 @@ Arrêtez {{site.data.keyword.geospatialshort_Geospatial}} depuis le tableau de b
 
 
 
-Si plusieurs applications sont liées à la même instance de service, il se peut qu'une autre application ait ajouté ces régions.
+Si vous avez lié plusieurs application à la même instance de service, il se peut qu'une autre application ait ajouté ces régions.
 {:shortdesc}
 
 

@@ -17,7 +17,7 @@ lastupdated: "2018-06-11"
 {: #starter_app}
 
 
-{{site.data.keyword.geospatialshort_Geospatial}} inclut une [application de démarrage ![Icône de lien externe icon](../../icons/launch-glyph.svg "Icône de lien externe icon")](https://developer.ibm.com/streamsdev/wp-content/uploads/sites/15/2018/06/geo-starter.zip) que vous pouvez utiliser comme modèle d'expérimentation ainsi que pour appliquer des changements et les envoyer à l'environnement {{site.data.keyword.Bluemix_short}}.
+{{site.data.keyword.geospatialshort_Geospatial}} inclut une [application de démarrage ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://developer.ibm.com/streamsdev/wp-content/uploads/sites/15/2018/06/geo-starter.zip) que vous pouvez utiliser comme modèle d'expérimentation ainsi que pour appliquer des changements et les envoyer à l'environnement {{site.data.keyword.Bluemix_short}}.
 {:shortdesc}
 
 L'application de démarrage utilise des messages provenant d'un courtier MQTT de démonstration pour un ensemble simulé de périphériques en mouvement près de Las Vegas. L'application génère des informations sur le statut de ses opérations et les événements qu'elle détecte dans une page Web simple.
