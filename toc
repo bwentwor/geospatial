@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="geospatial" audience="service" href="/docs/services/geospatial/index.html"}
+{: .toc subcollection="geospatial" audience="service" arm="371" href="/docs/services/geospatial/index.html"}
 Geospatial Analytics
 
     {: .navgroup id="learn"}
